@@ -1,0 +1,936 @@
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/7b0b7a03-02a9-11ef-a804-1cbfc0902a56 "HTTP/1.1 200 OK"
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/a1c17a67-02a9-11ef-979c-1cbfc0902a56 "HTTP/1.1 200 OK"
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/6a2bc7a3-02aa-11ef-bdca-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Websocket closed with 4014, cannot reconnect.
+Cleaning up tasks.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/f3f6bd6a-02ab-11ef-b663-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-jdjm",{"micros":115439,"calls":["id_created",{"micros":697,"calls":[]},"session_lookup_time",{"micros":303,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-1-273",{"micros":112918,"calls":["start_session",{"micros":51342,"calls":["discord-api-rpc-77fb6b466d-8m25k",{"micros":46739,"calls":["get_user",{"micros":7468},"get_guilds",{"micros":5556},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":178},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":55,"calls":[]},"presence_started",{"micros":24003,"calls":[]},"guilds_started",{"micros":1,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":37498,"calls":[]},"connect_finished",{"micros":37501,"calls":[]},"build_ready",{"micros":10,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 036486fa72e46e634959e4c4117b234c).
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/26575291-02ac-11ef-9d31-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-q4hn",{"micros":62295,"calls":["id_created",{"micros":1234,"calls":[]},"session_lookup_time",{"micros":6392,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-217",{"micros":53109,"calls":["start_session",{"micros":45665,"calls":["discord-api-rpc-77fb6b466d-vfp7s",{"micros":41277,"calls":["get_user",{"micros":6906},"get_guilds",{"micros":3118},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":279,"calls":[]},"guilds_started",{"micros":2,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":7078,"calls":[]},"connect_finished",{"micros":7083,"calls":[]},"build_ready",{"micros":11,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 03e423a0acfb9f8c184656044349f45c).
+HTTP Request: GET http://localhost:8001/apps/4c14d164-8f6d-46a2-9f2c-d79348cb9264/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/4c14d164-8f6d-46a2-9f2c-d79348cb9264/users/4f677ba0-8584-4705-9311-fb935975feda/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/4c14d164-8f6d-46a2-9f2c-d79348cb9264/users/4f677ba0-8584-4705-9311-fb935975feda/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/4c14d164-8f6d-46a2-9f2c-d79348cb9264/users/4f677ba0-8584-4705-9311-fb935975feda/sessions/d9eac875-bb86-4602-93e8-8fed1d78bb79/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/4c14d164-8f6d-46a2-9f2c-d79348cb9264/users/4f677ba0-8584-4705-9311-fb935975feda/sessions/d9eac875-bb86-4602-93e8-8fed1d78bb79/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/44cb1731-02af-11ef-a497-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-4wpw",{"micros":63452,"calls":["id_created",{"micros":596,"calls":[]},"session_lookup_time",{"micros":5475,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-1",{"micros":56012,"calls":["start_session",{"micros":36237,"calls":["discord-api-continuous-canary-rpc-bd4f8d75-4jtht",{"micros":33012,"calls":["get_user",{"micros":4485},"get_guilds",{"micros":2657},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":6}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":236,"calls":[]},"guilds_started",{"micros":171,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":19281,"calls":[]},"connect_finished",{"micros":19287,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 53af628433f1d5724e4b31da65d683e5).
+HTTP Request: GET http://localhost:8001/apps/0d1b1409-2108-48cb-9e7e-e52c993f0209/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0d1b1409-2108-48cb-9e7e-e52c993f0209/users/1e3deda8-bfb8-4171-a79b-b673be9fcece/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0d1b1409-2108-48cb-9e7e-e52c993f0209/users/1e3deda8-bfb8-4171-a79b-b673be9fcece/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0d1b1409-2108-48cb-9e7e-e52c993f0209/users/1e3deda8-bfb8-4171-a79b-b673be9fcece/sessions/67114cc3-abcd-4e1c-a953-bd4cbff35f65/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0d1b1409-2108-48cb-9e7e-e52c993f0209/users/1e3deda8-bfb8-4171-a79b-b673be9fcece/sessions/67114cc3-abcd-4e1c-a953-bd4cbff35f65/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/62ab6773-02b0-11ef-8f3d-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-zjmr",{"micros":84588,"calls":["id_created",{"micros":1253,"calls":[]},"session_lookup_time",{"micros":245,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-1-153",{"micros":81800,"calls":["start_session",{"micros":50386,"calls":["discord-api-rpc-77fb6b466d-qnkq7",{"micros":44821,"calls":["get_user",{"micros":6351},"get_guilds",{"micros":5064},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":398,"calls":[]},"guilds_started",{"micros":172,"calls":[]},"guilds_connect",{"micros":6,"calls":[]},"presence_connect",{"micros":30757,"calls":[]},"connect_finished",{"micros":30768,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: e50b23aa84b639e55fb2bc3f76d7d2ac).
+HTTP Request: GET http://localhost:8001/apps/c6f738dc-591d-4307-955e-7898e2f5ecd7/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c6f738dc-591d-4307-955e-7898e2f5ecd7/users/0aad1fd9-13b6-4f74-b08d-87ee0887b54e/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c6f738dc-591d-4307-955e-7898e2f5ecd7/users/0aad1fd9-13b6-4f74-b08d-87ee0887b54e/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c6f738dc-591d-4307-955e-7898e2f5ecd7/users/0aad1fd9-13b6-4f74-b08d-87ee0887b54e/sessions/6bc163eb-bb67-4cdc-b296-27dff6d21395/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c6f738dc-591d-4307-955e-7898e2f5ecd7/users/0aad1fd9-13b6-4f74-b08d-87ee0887b54e/sessions/6bc163eb-bb67-4cdc-b296-27dff6d21395/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/d81dcea3-02b0-11ef-8505-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-jnqm",{"micros":71907,"calls":["id_created",{"micros":552,"calls":[]},"session_lookup_time",{"micros":5568,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-274",{"micros":65451,"calls":["start_session",{"micros":41990,"calls":["discord-api-rpc-77fb6b466d-89mwv",{"micros":38513,"calls":["get_user",{"micros":5204},"get_guilds",{"micros":4500},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":150},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":70,"calls":[]},"presence_started",{"micros":244,"calls":[]},"guilds_started",{"micros":142,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":22981,"calls":[]},"connect_finished",{"micros":22985,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 00552af097d4247445737ddeb6cb9808).
+HTTP Request: GET http://localhost:8001/apps/1462665c-9073-48cf-b932-178c1ea81d7a/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/1462665c-9073-48cf-b932-178c1ea81d7a/users/0fc97f8c-c7b7-461f-912e-e3d8659136d5/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/1462665c-9073-48cf-b932-178c1ea81d7a/users/0fc97f8c-c7b7-461f-912e-e3d8659136d5/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/1462665c-9073-48cf-b932-178c1ea81d7a/users/0fc97f8c-c7b7-461f-912e-e3d8659136d5/sessions/cf124702-4169-4ba5-a8f3-723874268534/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/1462665c-9073-48cf-b932-178c1ea81d7a/users/0fc97f8c-c7b7-461f-912e-e3d8659136d5/sessions/cf124702-4169-4ba5-a8f3-723874268534/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/0b06207b-02b1-11ef-8e26-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-h7kz",{"micros":164975,"calls":["id_created",{"micros":1310,"calls":[]},"session_lookup_time",{"micros":244,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-21",{"micros":163178,"calls":["start_session",{"micros":109431,"calls":["discord-api-rpc-77fb6b466d-q6h92",{"micros":102332,"calls":["get_user",{"micros":12072},"get_guilds",{"micros":2203},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":2004},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":62,"calls":[]},"presence_started",{"micros":5149,"calls":[]},"guilds_started",{"micros":132,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":48379,"calls":[]},"connect_finished",{"micros":48384,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: b4f9584537d561f0efdf7d4dd0ab99a5).
+HTTP Request: GET http://localhost:8001/apps/e8ff6192-48ea-4eb7-ae51-ab224d9c739b/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/e8ff6192-48ea-4eb7-ae51-ab224d9c739b/users/98bcc185-fcb6-4ab7-a0c1-a62b94dd19f5/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/e8ff6192-48ea-4eb7-ae51-ab224d9c739b/users/98bcc185-fcb6-4ab7-a0c1-a62b94dd19f5/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/e8ff6192-48ea-4eb7-ae51-ab224d9c739b/users/98bcc185-fcb6-4ab7-a0c1-a62b94dd19f5/sessions/3fee5be1-28c3-46c8-baee-9d011cb717d8/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/e8ff6192-48ea-4eb7-ae51-ab224d9c739b/users/98bcc185-fcb6-4ab7-a0c1-a62b94dd19f5/sessions/3fee5be1-28c3-46c8-baee-9d011cb717d8/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/3d2dc171-02b1-11ef-a8f6-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-pdln",{"micros":126654,"calls":["id_created",{"micros":565,"calls":[]},"session_lookup_time",{"micros":638,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-228",{"micros":125129,"calls":["start_session",{"micros":51556,"calls":["discord-api-rpc-77fb6b466d-5lfxt",{"micros":47006,"calls":["get_user",{"micros":7070},"get_guilds",{"micros":7501},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":0},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":64,"calls":[]},"presence_started",{"micros":46137,"calls":[]},"guilds_started",{"micros":173,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":27165,"calls":[]},"connect_finished",{"micros":27172,"calls":[]},"build_ready",{"micros":21,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 22938a9926b998b66b80d0a44d279e9c).
+HTTP Request: GET http://localhost:8001/apps/1f550ac0-e51f-4656-82ff-e1b42c75a26f/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/1f550ac0-e51f-4656-82ff-e1b42c75a26f/users/82a32c1f-21c0-4b93-9363-787bd151d8ec/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/1f550ac0-e51f-4656-82ff-e1b42c75a26f/users/82a32c1f-21c0-4b93-9363-787bd151d8ec/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/1f550ac0-e51f-4656-82ff-e1b42c75a26f/users/82a32c1f-21c0-4b93-9363-787bd151d8ec/sessions/a58649fa-fc67-41c0-86ce-ec25af79b082/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/1f550ac0-e51f-4656-82ff-e1b42c75a26f/users/82a32c1f-21c0-4b93-9363-787bd151d8ec/sessions/a58649fa-fc67-41c0-86ce-ec25af79b082/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/659772d8-02b1-11ef-b051-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-h6cb",{"micros":70745,"calls":["id_created",{"micros":1361,"calls":[]},"session_lookup_time",{"micros":286,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-1-299",{"micros":68193,"calls":["start_session",{"micros":55689,"calls":["discord-api-rpc-77fb6b466d-pk79h",{"micros":51642,"calls":["get_user",{"micros":6994},"get_guilds",{"micros":3294},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":11040},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":238,"calls":[]},"guilds_started",{"micros":120,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":12057,"calls":[]},"connect_finished",{"micros":12063,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 30538c3db0573ea0fc7e6dac036b0e51).
+HTTP Request: GET http://localhost:8001/apps/e043f810-a7bd-4b9b-b5c2-563e65a3baf6/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/e043f810-a7bd-4b9b-b5c2-563e65a3baf6/users/76f389cd-9d1a-4025-a2a4-759fe27d3aee/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/e043f810-a7bd-4b9b-b5c2-563e65a3baf6/users/76f389cd-9d1a-4025-a2a4-759fe27d3aee/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/e043f810-a7bd-4b9b-b5c2-563e65a3baf6/users/76f389cd-9d1a-4025-a2a4-759fe27d3aee/sessions/d178c0ca-0f82-45c8-9f94-c51dcafd4a01/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/e043f810-a7bd-4b9b-b5c2-563e65a3baf6/users/76f389cd-9d1a-4025-a2a4-759fe27d3aee/sessions/d178c0ca-0f82-45c8-9f94-c51dcafd4a01/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/a5c44986-02b1-11ef-8247-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-30sm",{"micros":82204,"calls":["id_created",{"micros":866,"calls":[]},"session_lookup_time",{"micros":1550,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-1-272",{"micros":79429,"calls":["start_session",{"micros":51779,"calls":["discord-api-rpc-77fb6b466d-4jm6b",{"micros":47465,"calls":["get_user",{"micros":4824},"get_guilds",{"micros":2557},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":694},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":302,"calls":[]},"guilds_started",{"micros":140,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":27112,"calls":[]},"connect_finished",{"micros":27118,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 68da9a6bce53432904eef97ba58beb42).
+HTTP Request: GET http://localhost:8001/apps/58d3b798-42c8-461c-a301-9d449985531e/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/58d3b798-42c8-461c-a301-9d449985531e/users/f29bc915-4899-4501-a048-f48327aed870/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/58d3b798-42c8-461c-a301-9d449985531e/users/f29bc915-4899-4501-a048-f48327aed870/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/58d3b798-42c8-461c-a301-9d449985531e/users/f29bc915-4899-4501-a048-f48327aed870/sessions/aa4f383c-062b-42a4-8b77-1d8657f67370/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/58d3b798-42c8-461c-a301-9d449985531e/users/f29bc915-4899-4501-a048-f48327aed870/sessions/aa4f383c-062b-42a4-8b77-1d8657f67370/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/d52a3b6f-02b1-11ef-91a0-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-s5d5",{"micros":80216,"calls":["id_created",{"micros":709,"calls":[]},"session_lookup_time",{"micros":303,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-1-139",{"micros":78929,"calls":["start_session",{"micros":48139,"calls":["discord-api-rpc-77fb6b466d-8cgx5",{"micros":43715,"calls":["get_user",{"micros":5577},"get_guilds",{"micros":2839},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":567},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":54,"calls":[]},"presence_started",{"micros":256,"calls":[]},"guilds_started",{"micros":114,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":30339,"calls":[]},"connect_finished",{"micros":30344,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: f3d6b3a0b5376c0134f5e621c6724cf3).
+HTTP Request: GET http://localhost:8001/apps/4e9b5b0b-e88a-446b-a7a7-a660ad8da5f9/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/4e9b5b0b-e88a-446b-a7a7-a660ad8da5f9/users/b5395410-bf57-4c0e-9bff-f4b1a05c3781/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/4e9b5b0b-e88a-446b-a7a7-a660ad8da5f9/users/b5395410-bf57-4c0e-9bff-f4b1a05c3781/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/4e9b5b0b-e88a-446b-a7a7-a660ad8da5f9/users/b5395410-bf57-4c0e-9bff-f4b1a05c3781/sessions/d7ac5737-ce35-4bf8-a1a6-79920b123dec/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/4e9b5b0b-e88a-446b-a7a7-a660ad8da5f9/users/b5395410-bf57-4c0e-9bff-f4b1a05c3781/sessions/d7ac5737-ce35-4bf8-a1a6-79920b123dec/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/0dc6e2d9-02b2-11ef-a330-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-d64r",{"micros":91597,"calls":["id_created",{"micros":814,"calls":[]},"session_lookup_time",{"micros":3920,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-225",{"micros":85556,"calls":["start_session",{"micros":38891,"calls":["discord-api-rpc-77fb6b466d-wlwhr",{"micros":35136,"calls":["get_user",{"micros":5776},"get_guilds",{"micros":2262},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":466},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":9042,"calls":[]},"guilds_started",{"micros":151,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":37384,"calls":[]},"connect_finished",{"micros":37391,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: bfb1954bb09f2c6dbb31a218f0cfb97e).
+HTTP Request: GET http://localhost:8001/apps/7bc95f5f-3bbe-41fa-878e-ceacf1deea2d/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/7bc95f5f-3bbe-41fa-878e-ceacf1deea2d/users/61920bb5-828e-40b5-aaae-2d4f766a1f6f/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/7bc95f5f-3bbe-41fa-878e-ceacf1deea2d/users/61920bb5-828e-40b5-aaae-2d4f766a1f6f/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/7bc95f5f-3bbe-41fa-878e-ceacf1deea2d/users/61920bb5-828e-40b5-aaae-2d4f766a1f6f/sessions/6f01643d-350e-49b9-83fe-415b25748259/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/7bc95f5f-3bbe-41fa-878e-ceacf1deea2d/users/61920bb5-828e-40b5-aaae-2d4f766a1f6f/sessions/6f01643d-350e-49b9-83fe-415b25748259/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/cf07ab8b-02b2-11ef-b169-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-696c",{"micros":120296,"calls":["id_created",{"micros":1358,"calls":[]},"session_lookup_time",{"micros":306,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-1-43",{"micros":118111,"calls":["start_session",{"micros":49112,"calls":["discord-api-rpc-77fb6b466d-6kr6z",{"micros":45284,"calls":["get_user",{"micros":8235},"get_guilds",{"micros":4137},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":3111},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":68,"calls":[]},"presence_started",{"micros":27227,"calls":[]},"guilds_started",{"micros":161,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":41513,"calls":[]},"connect_finished",{"micros":41519,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 52e1ddd5923a2906bbef41fb1931828e).
+HTTP Request: GET http://localhost:8001/apps/0c755138-a4a3-4a27-9d66-edd5b5140f16/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0c755138-a4a3-4a27-9d66-edd5b5140f16/users/d86dd486-21bd-434c-90b9-bf6fbb752d48/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0c755138-a4a3-4a27-9d66-edd5b5140f16/users/d86dd486-21bd-434c-90b9-bf6fbb752d48/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0c755138-a4a3-4a27-9d66-edd5b5140f16/users/d86dd486-21bd-434c-90b9-bf6fbb752d48/sessions/df01d478-4c8c-4e18-be30-d0cd7aa8bcff/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0c755138-a4a3-4a27-9d66-edd5b5140f16/users/d86dd486-21bd-434c-90b9-bf6fbb752d48/sessions/df01d478-4c8c-4e18-be30-d0cd7aa8bcff/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/424293ad-02b3-11ef-af0d-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-8cpx",{"micros":101941,"calls":["id_created",{"micros":820,"calls":[]},"session_lookup_time",{"micros":295,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-288",{"micros":99477,"calls":["start_session",{"micros":50585,"calls":["discord-api-rpc-77fb6b466d-s479q",{"micros":45958,"calls":["get_user",{"micros":5867},"get_guilds",{"micros":3004},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":780},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":51,"calls":[]},"presence_started",{"micros":12922,"calls":[]},"guilds_started",{"micros":144,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":35744,"calls":[]},"connect_finished",{"micros":35750,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 94cf6ffe5659f730516c87815b692fbb).
+HTTP Request: GET http://localhost:8001/apps/a41889cb-4c4b-471f-9f59-b0a409b998fd/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/a41889cb-4c4b-471f-9f59-b0a409b998fd/users/e6724666-88a3-4298-bdb3-8e82c023dae9/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/a41889cb-4c4b-471f-9f59-b0a409b998fd/users/e6724666-88a3-4298-bdb3-8e82c023dae9/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/a41889cb-4c4b-471f-9f59-b0a409b998fd/users/e6724666-88a3-4298-bdb3-8e82c023dae9/sessions/b9df1dcb-2c4c-442e-9f30-151ed26f31c2/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/a41889cb-4c4b-471f-9f59-b0a409b998fd/users/e6724666-88a3-4298-bdb3-8e82c023dae9/sessions/b9df1dcb-2c4c-442e-9f30-151ed26f31c2/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/bf2aa145-02b3-11ef-855a-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-8zvb",{"micros":91881,"calls":["id_created",{"micros":899,"calls":[]},"session_lookup_time",{"micros":257,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-111",{"micros":89398,"calls":["start_session",{"micros":43891,"calls":["discord-api-rpc-77fb6b466d-pxtn2",{"micros":39319,"calls":["get_user",{"micros":6525},"get_guilds",{"micros":3511},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":67,"calls":[]},"presence_started",{"micros":27895,"calls":[]},"guilds_started",{"micros":158,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17359,"calls":[]},"connect_finished",{"micros":17365,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 824a723551da9fe10c2b274517c7e615).
+HTTP Request: GET http://localhost:8001/apps/5dc4f4e1-2e30-4e6c-bff1-78927dfc781a/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/5dc4f4e1-2e30-4e6c-bff1-78927dfc781a/users/2d9fb677-d0fe-4cc4-b11a-b743046e4db8/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/5dc4f4e1-2e30-4e6c-bff1-78927dfc781a/users/2d9fb677-d0fe-4cc4-b11a-b743046e4db8/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/5dc4f4e1-2e30-4e6c-bff1-78927dfc781a/users/2d9fb677-d0fe-4cc4-b11a-b743046e4db8/sessions/7795a5a4-bf11-4feb-aced-338a8a56d93c/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/5dc4f4e1-2e30-4e6c-bff1-78927dfc781a/users/2d9fb677-d0fe-4cc4-b11a-b743046e4db8/sessions/7795a5a4-bf11-4feb-aced-338a8a56d93c/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/02411670-02b4-11ef-b9d6-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-x9dd",{"micros":63642,"calls":["id_created",{"micros":880,"calls":[]},"session_lookup_time",{"micros":311,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-112",{"micros":60938,"calls":["start_session",{"micros":42460,"calls":["discord-api-rpc-77fb6b466d-js2xs",{"micros":38224,"calls":["get_user",{"micros":11119},"get_guilds",{"micros":2242},"send_scheduled_deletion_message",{"micros":25},"guild_join_requests",{"micros":694},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":281,"calls":[]},"guilds_started",{"micros":121,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":17987,"calls":[]},"connect_finished",{"micros":17993,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 49059c2770ad3e34042058fb2c233550).
+HTTP Request: GET http://localhost:8001/apps/f41aacc4-5ae7-4a3b-949f-02021d963753/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f41aacc4-5ae7-4a3b-949f-02021d963753/users/aeff25a7-c830-4c64-9d58-17587d684485/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f41aacc4-5ae7-4a3b-949f-02021d963753/users/aeff25a7-c830-4c64-9d58-17587d684485/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f41aacc4-5ae7-4a3b-949f-02021d963753/users/aeff25a7-c830-4c64-9d58-17587d684485/sessions/5191a828-d73c-4f35-ac68-61b19454f8ed/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f41aacc4-5ae7-4a3b-949f-02021d963753/users/aeff25a7-c830-4c64-9d58-17587d684485/sessions/5191a828-d73c-4f35-ac68-61b19454f8ed/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/f9417abc-02b9-11ef-8502-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-dkwf",{"micros":86132,"calls":["id_created",{"micros":823,"calls":[]},"session_lookup_time",{"micros":1418,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-78",{"micros":83620,"calls":["start_session",{"micros":40155,"calls":["discord-api-rpc-77fb6b466d-t8d4n",{"micros":36313,"calls":["get_user",{"micros":5182},"get_guilds",{"micros":2641},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":771},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":327,"calls":[]},"guilds_started",{"micros":142,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":42907,"calls":[]},"connect_finished",{"micros":42912,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: f3aa2df16af142f1f679b9c86f86ee4d).
+HTTP Request: GET http://localhost:8001/apps/c4c44919-f27f-42d5-94d4-df687ad646b2/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c4c44919-f27f-42d5-94d4-df687ad646b2/users/770ab7c9-7536-439b-af75-fa5099e4ad45/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c4c44919-f27f-42d5-94d4-df687ad646b2/users/770ab7c9-7536-439b-af75-fa5099e4ad45/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c4c44919-f27f-42d5-94d4-df687ad646b2/users/770ab7c9-7536-439b-af75-fa5099e4ad45/sessions/16be883f-0e4a-4463-93d9-369786631ed7/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c4c44919-f27f-42d5-94d4-df687ad646b2/users/770ab7c9-7536-439b-af75-fa5099e4ad45/sessions/16be883f-0e4a-4463-93d9-369786631ed7/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/2b49f7fd-02bb-11ef-8a65-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-j1lb",{"micros":138290,"calls":["id_created",{"micros":727,"calls":[]},"session_lookup_time",{"micros":237,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-74",{"micros":136062,"calls":["start_session",{"micros":41992,"calls":["discord-api-rpc-77fb6b466d-djtd5",{"micros":37176,"calls":["get_user",{"micros":5126},"get_guilds",{"micros":2350},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":6066},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":41169,"calls":[]},"guilds_started",{"micros":132,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":52687,"calls":[]},"connect_finished",{"micros":52692,"calls":[]},"build_ready",{"micros":14,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 6f30a960b20ad173fa2515fe13bf00da).
+HTTP Request: GET http://localhost:8001/apps/3ff366e8-a2fa-487e-9e8d-372d60fa5fe8/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/3ff366e8-a2fa-487e-9e8d-372d60fa5fe8/users/357bdf6c-b3e6-4729-97cf-2da2b07d31b7/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/3ff366e8-a2fa-487e-9e8d-372d60fa5fe8/users/357bdf6c-b3e6-4729-97cf-2da2b07d31b7/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/3ff366e8-a2fa-487e-9e8d-372d60fa5fe8/users/357bdf6c-b3e6-4729-97cf-2da2b07d31b7/sessions/19bb4053-dcca-4a17-963e-b52e272d9de1/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/3ff366e8-a2fa-487e-9e8d-372d60fa5fe8/users/357bdf6c-b3e6-4729-97cf-2da2b07d31b7/sessions/19bb4053-dcca-4a17-963e-b52e272d9de1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/8fe123db-02bb-11ef-b69c-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-d5g3",{"micros":133918,"calls":["id_created",{"micros":587,"calls":[]},"session_lookup_time",{"micros":376,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-1-256",{"micros":131706,"calls":["start_session",{"micros":84382,"calls":["discord-api-rpc-77fb6b466d-cnqzl",{"micros":80645,"calls":["get_user",{"micros":6261},"get_guilds",{"micros":5740},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":269,"calls":[]},"guilds_started",{"micros":149,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":46827,"calls":[]},"connect_finished",{"micros":46832,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 2175e93a3454803ab44eb96612766ee1).
+HTTP Request: GET http://localhost:8001/apps/719b580e-8a67-42ee-b0ec-84565be7e0b3/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/719b580e-8a67-42ee-b0ec-84565be7e0b3/users/dc24da74-cb78-4164-9a4d-e28dd418d625/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/719b580e-8a67-42ee-b0ec-84565be7e0b3/users/dc24da74-cb78-4164-9a4d-e28dd418d625/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/719b580e-8a67-42ee-b0ec-84565be7e0b3/users/dc24da74-cb78-4164-9a4d-e28dd418d625/sessions/8d9754b7-ecf8-4293-8254-61a9c4dc222c/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/719b580e-8a67-42ee-b0ec-84565be7e0b3/users/dc24da74-cb78-4164-9a4d-e28dd418d625/sessions/8d9754b7-ecf8-4293-8254-61a9c4dc222c/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/d25810ab-02bb-11ef-93b0-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-qvk9",{"micros":71495,"calls":["id_created",{"micros":892,"calls":[]},"session_lookup_time",{"micros":364,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-248",{"micros":70007,"calls":["start_session",{"micros":35684,"calls":["discord-api-rpc-77fb6b466d-xlkqz",{"micros":32364,"calls":["get_user",{"micros":4954},"get_guilds",{"micros":2247},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":562},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":50,"calls":[]},"presence_started",{"micros":27646,"calls":[]},"guilds_started",{"micros":173,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":6428,"calls":[]},"connect_finished",{"micros":6433,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 2af5d3bb66f53bf1c774752c31c41bce).
+HTTP Request: GET http://localhost:8001/apps/1b13d90c-445a-4fa9-b136-a9709973cd55/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/1b13d90c-445a-4fa9-b136-a9709973cd55/users/0d4bddf3-e132-4ae0-9934-5a9f34af025b/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/1b13d90c-445a-4fa9-b136-a9709973cd55/users/0d4bddf3-e132-4ae0-9934-5a9f34af025b/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/1b13d90c-445a-4fa9-b136-a9709973cd55/users/0d4bddf3-e132-4ae0-9934-5a9f34af025b/sessions/1fb5ca40-4f1b-4630-8e9e-ee9930a881a9/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/1b13d90c-445a-4fa9-b136-a9709973cd55/users/0d4bddf3-e132-4ae0-9934-5a9f34af025b/sessions/1fb5ca40-4f1b-4630-8e9e-ee9930a881a9/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/1889ce5f-02bc-11ef-b958-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-02wd",{"micros":154087,"calls":["id_created",{"micros":411,"calls":[]},"session_lookup_time",{"micros":5953,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-39",{"micros":144984,"calls":["start_session",{"micros":124341,"calls":["discord-api-rpc-77fb6b466d-w5zpc",{"micros":119643,"calls":["get_user",{"micros":8505},"get_guilds",{"micros":5220},"send_scheduled_deletion_message",{"micros":5},"guild_join_requests",{"micros":2760},"authorized_ip_coro",{"micros":5}]}]},"starting_guild_connect",{"micros":82,"calls":[]},"presence_started",{"micros":8041,"calls":[]},"guilds_started",{"micros":146,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":12333,"calls":[]},"connect_finished",{"micros":12339,"calls":[]},"build_ready",{"micros":27,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 8b95fd569574d4542d62305268a2cb96).
+HTTP Request: GET http://localhost:8001/apps/780e10ab-8d69-450d-affb-1c91033db738/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/780e10ab-8d69-450d-affb-1c91033db738/users/67863e61-e2a7-42ee-9715-7fe04bf1c8cf/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/780e10ab-8d69-450d-affb-1c91033db738/users/67863e61-e2a7-42ee-9715-7fe04bf1c8cf/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/780e10ab-8d69-450d-affb-1c91033db738/users/67863e61-e2a7-42ee-9715-7fe04bf1c8cf/sessions/edbfaa97-25da-4317-8491-fa8b95b7835f/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/780e10ab-8d69-450d-affb-1c91033db738/users/67863e61-e2a7-42ee-9715-7fe04bf1c8cf/sessions/edbfaa97-25da-4317-8491-fa8b95b7835f/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/54f298be-02bc-11ef-a1c6-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-vskm",{"micros":91351,"calls":["id_created",{"micros":790,"calls":[]},"session_lookup_time",{"micros":18289,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-31",{"micros":71978,"calls":["start_session",{"micros":41714,"calls":["discord-api-rpc-77fb6b466d-zwztl",{"micros":38321,"calls":["get_user",{"micros":4779},"get_guilds",{"micros":2873},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":831},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":86,"calls":[]},"presence_started",{"micros":232,"calls":[]},"guilds_started",{"micros":150,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":29768,"calls":[]},"connect_finished",{"micros":29774,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: ea80395248091d38b0a94bcbe2b286ac).
+HTTP Request: GET http://localhost:8001/apps/b2f5beb4-7b14-46bd-8b61-4086b8b42284/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/b2f5beb4-7b14-46bd-8b61-4086b8b42284/users/40cc2c78-1132-4fa6-8850-af96d9f43b3f/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/b2f5beb4-7b14-46bd-8b61-4086b8b42284/users/40cc2c78-1132-4fa6-8850-af96d9f43b3f/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/b2f5beb4-7b14-46bd-8b61-4086b8b42284/users/40cc2c78-1132-4fa6-8850-af96d9f43b3f/sessions/93302274-a065-479c-b07e-49743dac93db/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/b2f5beb4-7b14-46bd-8b61-4086b8b42284/users/40cc2c78-1132-4fa6-8850-af96d9f43b3f/sessions/93302274-a065-479c-b07e-49743dac93db/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/77ee0b0b-02bf-11ef-bb8e-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-zbm6",{"micros":65075,"calls":["id_created",{"micros":1495,"calls":[]},"session_lookup_time",{"micros":367,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-108",{"micros":61897,"calls":["start_session",{"micros":37412,"calls":["discord-api-rpc-77fb6b466d-wlwhr",{"micros":33554,"calls":["get_user",{"micros":6181},"get_guilds",{"micros":3370},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":0},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":77,"calls":[]},"presence_started",{"micros":315,"calls":[]},"guilds_started",{"micros":136,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":23927,"calls":[]},"connect_finished",{"micros":23932,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 98e4dd217c7f9cec5d329a9a7b9af56f).
+HTTP Request: GET http://localhost:8001/apps/7a53601d-e3db-43cf-b775-c874a7c70611/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/7a53601d-e3db-43cf-b775-c874a7c70611/users/94b47e29-6ebc-4d6d-bd60-0d27ed57a17b/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/7a53601d-e3db-43cf-b775-c874a7c70611/users/94b47e29-6ebc-4d6d-bd60-0d27ed57a17b/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/7a53601d-e3db-43cf-b775-c874a7c70611/users/94b47e29-6ebc-4d6d-bd60-0d27ed57a17b/sessions/c0c876e5-74ee-4f7d-b98d-efc312dc7ebb/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/7a53601d-e3db-43cf-b775-c874a7c70611/users/94b47e29-6ebc-4d6d-bd60-0d27ed57a17b/sessions/c0c876e5-74ee-4f7d-b98d-efc312dc7ebb/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/01c9b961-02c2-11ef-b55d-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-8trz",{"micros":160856,"calls":["id_created",{"micros":879,"calls":[]},"session_lookup_time",{"micros":5534,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-284",{"micros":153961,"calls":["start_session",{"micros":119447,"calls":["discord-api-rpc-77fb6b466d-2sq7p",{"micros":104238,"calls":["get_user",{"micros":23494},"get_guilds",{"micros":4979},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":0},"authorized_ip_coro",{"micros":6}]}]},"starting_guild_connect",{"micros":74,"calls":[]},"presence_started",{"micros":8278,"calls":[]},"guilds_started",{"micros":153,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":25977,"calls":[]},"connect_finished",{"micros":25983,"calls":[]},"build_ready",{"micros":20,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 44140839b0c53cf5963ae704ac69cb9b).
+HTTP Request: GET http://localhost:8001/apps/2aa4fd52-ea81-4c1a-a75d-e66f4285b510/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/2aa4fd52-ea81-4c1a-a75d-e66f4285b510/users/623a38f9-0450-458a-a667-eac307b06006/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/2aa4fd52-ea81-4c1a-a75d-e66f4285b510/users/623a38f9-0450-458a-a667-eac307b06006/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/2aa4fd52-ea81-4c1a-a75d-e66f4285b510/users/623a38f9-0450-458a-a667-eac307b06006/sessions/5887637f-1eae-4218-a747-ce174fc00e52/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/2aa4fd52-ea81-4c1a-a75d-e66f4285b510/users/623a38f9-0450-458a-a667-eac307b06006/sessions/5887637f-1eae-4218-a747-ce174fc00e52/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/53081868-02c2-11ef-8a85-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-gtm5",{"micros":84553,"calls":["id_created",{"micros":645,"calls":[]},"session_lookup_time",{"micros":357,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-195",{"micros":83173,"calls":["start_session",{"micros":55227,"calls":["discord-api-rpc-77fb6b466d-h84q6",{"micros":51450,"calls":["get_user",{"micros":6324},"get_guilds",{"micros":4417},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":0},"authorized_ip_coro",{"micros":6}]}]},"starting_guild_connect",{"micros":48,"calls":[]},"presence_started",{"micros":7377,"calls":[]},"guilds_started",{"micros":150,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":20339,"calls":[]},"connect_finished",{"micros":20344,"calls":[]},"build_ready",{"micros":22,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 9c679c3afff044402c0a8e66aafadbb6).
+HTTP Request: GET http://localhost:8001/apps/674c5558-65ce-4741-b097-e110a44235d5/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/674c5558-65ce-4741-b097-e110a44235d5/users/ce7c557d-ca2e-40d4-8944-1164eacfa066/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/674c5558-65ce-4741-b097-e110a44235d5/users/ce7c557d-ca2e-40d4-8944-1164eacfa066/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/674c5558-65ce-4741-b097-e110a44235d5/users/ce7c557d-ca2e-40d4-8944-1164eacfa066/sessions/ec755335-5015-4611-b310-62bfa90d8efe/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/674c5558-65ce-4741-b097-e110a44235d5/users/ce7c557d-ca2e-40d4-8944-1164eacfa066/sessions/ec755335-5015-4611-b310-62bfa90d8efe/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/6f636e5c-02c2-11ef-999e-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-vx34",{"micros":150080,"calls":["id_created",{"micros":713,"calls":[]},"session_lookup_time",{"micros":235,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-1-179",{"micros":148858,"calls":["start_session",{"micros":124606,"calls":["discord-api-rpc-77fb6b466d-24f4m",{"micros":120129,"calls":["get_user",{"micros":6174},"get_guilds",{"micros":18304},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":49,"calls":[]},"presence_started",{"micros":235,"calls":[]},"guilds_started",{"micros":158,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":23784,"calls":[]},"connect_finished",{"micros":23789,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 429b04215c74a0305674c8d671f4aaaf).
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/9f0102cb-02c2-11ef-9997-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-8g1x",{"micros":85104,"calls":["id_created",{"micros":512,"calls":[]},"session_lookup_time",{"micros":13379,"calls":[]},"session_lookup_finished",{"micros":16,"calls":[]},"discord-sessions-prd-1-155",{"micros":70855,"calls":["start_session",{"micros":36701,"calls":["discord-api-rpc-77fb6b466d-9wlvs",{"micros":33082,"calls":["get_user",{"micros":4882},"get_guilds",{"micros":2564},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":130},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":256,"calls":[]},"guilds_started",{"micros":134,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":33683,"calls":[]},"connect_finished",{"micros":33689,"calls":[]},"build_ready",{"micros":12,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 12d5fb0415a34db3c1ef8111f4fcbbb4).
+HTTP Request: GET http://localhost:8001/apps/8b7f4c77-23dd-455d-bc36-f92eea1b58c1/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/8b7f4c77-23dd-455d-bc36-f92eea1b58c1/users/31c42811-abf1-4948-8bc8-d08fc57b5780/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/8b7f4c77-23dd-455d-bc36-f92eea1b58c1/users/31c42811-abf1-4948-8bc8-d08fc57b5780/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/8b7f4c77-23dd-455d-bc36-f92eea1b58c1/users/31c42811-abf1-4948-8bc8-d08fc57b5780/sessions/95469076-fd8c-45d6-b0d6-fa1a570c8f9c/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/8b7f4c77-23dd-455d-bc36-f92eea1b58c1/users/31c42811-abf1-4948-8bc8-d08fc57b5780/sessions/95469076-fd8c-45d6-b0d6-fa1a570c8f9c/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/3b07750b-02c3-11ef-b795-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-stvt",{"micros":105670,"calls":["id_created",{"micros":700,"calls":[]},"session_lookup_time",{"micros":246,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-260",{"micros":104522,"calls":["start_session",{"micros":45387,"calls":["discord-api-continuous-canary-rpc-bd4f8d75-rf5gl",{"micros":41214,"calls":["get_user",{"micros":5540},"get_guilds",{"micros":4341},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":974},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":33954,"calls":[]},"guilds_started",{"micros":170,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":24927,"calls":[]},"connect_finished",{"micros":24932,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: b5b24008470caa4c5a2702b65348a612).
+HTTP Request: GET http://localhost:8001/apps/59b3d2c4-4aca-4fcb-b20b-58889efb6ad6/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/59b3d2c4-4aca-4fcb-b20b-58889efb6ad6/users/19ed6d6f-26d7-4e3f-be45-0f4f75232ef2/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/59b3d2c4-4aca-4fcb-b20b-58889efb6ad6/users/19ed6d6f-26d7-4e3f-be45-0f4f75232ef2/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/59b3d2c4-4aca-4fcb-b20b-58889efb6ad6/users/19ed6d6f-26d7-4e3f-be45-0f4f75232ef2/sessions/c6e4d869-45ee-4d05-be0d-d540d1ad5693/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/59b3d2c4-4aca-4fcb-b20b-58889efb6ad6/users/19ed6d6f-26d7-4e3f-be45-0f4f75232ef2/sessions/c6e4d869-45ee-4d05-be0d-d540d1ad5693/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/c835c5ea-02c4-11ef-a0c1-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-ktw1",{"micros":66178,"calls":["id_created",{"micros":669,"calls":[]},"session_lookup_time",{"micros":13350,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-289",{"micros":50950,"calls":["start_session",{"micros":39315,"calls":["discord-api-rpc-77fb6b466d-l7n2t",{"micros":35878,"calls":["get_user",{"micros":7208},"get_guilds",{"micros":2609},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":53,"calls":[]},"presence_started",{"micros":315,"calls":[]},"guilds_started",{"micros":139,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":11094,"calls":[]},"connect_finished",{"micros":11100,"calls":[]},"build_ready",{"micros":23,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 05934e8ef8fc11939400f049b8bad53c).
+HTTP Request: GET http://localhost:8001/apps/5439b97c-718f-4a55-995f-d3da9a904dd2/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/5439b97c-718f-4a55-995f-d3da9a904dd2/users/863c94d3-7f5f-4ea5-8ef7-8c7f887ebac2/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/5439b97c-718f-4a55-995f-d3da9a904dd2/users/863c94d3-7f5f-4ea5-8ef7-8c7f887ebac2/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/5439b97c-718f-4a55-995f-d3da9a904dd2/users/863c94d3-7f5f-4ea5-8ef7-8c7f887ebac2/sessions/bc59df03-57a2-411e-87d2-4f1f3d0d150b/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/5439b97c-718f-4a55-995f-d3da9a904dd2/users/863c94d3-7f5f-4ea5-8ef7-8c7f887ebac2/sessions/bc59df03-57a2-411e-87d2-4f1f3d0d150b/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/35d86c3f-02c5-11ef-9025-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-stvt",{"micros":73189,"calls":["id_created",{"micros":1318,"calls":[]},"session_lookup_time",{"micros":230,"calls":[]},"session_lookup_finished",{"micros":20,"calls":[]},"discord-sessions-prd-1-149",{"micros":71274,"calls":["start_session",{"micros":43133,"calls":["discord-api-rpc-77fb6b466d-mxpkm",{"micros":38336,"calls":["get_user",{"micros":5796},"get_guilds",{"micros":2859},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":552},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":13919,"calls":[]},"guilds_started",{"micros":151,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":13984,"calls":[]},"connect_finished",{"micros":13989,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 03b84d381ad3ff663265047a320313f9).
+HTTP Request: GET http://localhost:8001/apps/0446e53c-f5bb-40d6-933b-44e631296ff6/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0446e53c-f5bb-40d6-933b-44e631296ff6/users/cb6f6aa8-57dc-4155-be10-0489bbcebac4/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0446e53c-f5bb-40d6-933b-44e631296ff6/users/cb6f6aa8-57dc-4155-be10-0489bbcebac4/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0446e53c-f5bb-40d6-933b-44e631296ff6/users/cb6f6aa8-57dc-4155-be10-0489bbcebac4/sessions/2f4cdca3-272a-487f-958a-66f17fa316a7/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0446e53c-f5bb-40d6-933b-44e631296ff6/users/cb6f6aa8-57dc-4155-be10-0489bbcebac4/sessions/2f4cdca3-272a-487f-958a-66f17fa316a7/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/a3eb2697-02c5-11ef-a380-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-mclr",{"micros":271486,"calls":["id_created",{"micros":858,"calls":[]},"session_lookup_time",{"micros":321,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-1-24",{"micros":269885,"calls":["start_session",{"micros":201360,"calls":["discord-api-rpc-77fb6b466d-w27bw",{"micros":192874,"calls":["get_user",{"micros":7091},"get_guilds",{"micros":70521},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":48165},"authorized_ip_coro",{"micros":6}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":43623,"calls":[]},"guilds_started",{"micros":165,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":24651,"calls":[]},"connect_finished",{"micros":24656,"calls":[]},"build_ready",{"micros":19,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 9af15fc16e5549200fb92aaa2eee1182).
+HTTP Request: GET http://localhost:8001/apps/c824379e-c754-41b3-aeb2-39e06da1a797/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c824379e-c754-41b3-aeb2-39e06da1a797/users/567d6b2a-71de-45aa-be49-a5cd2d4c5faa/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c824379e-c754-41b3-aeb2-39e06da1a797/users/567d6b2a-71de-45aa-be49-a5cd2d4c5faa/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c824379e-c754-41b3-aeb2-39e06da1a797/users/567d6b2a-71de-45aa-be49-a5cd2d4c5faa/sessions/d8142512-3b8d-40cb-b084-171a2b3858f3/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c824379e-c754-41b3-aeb2-39e06da1a797/users/567d6b2a-71de-45aa-be49-a5cd2d4c5faa/sessions/d8142512-3b8d-40cb-b084-171a2b3858f3/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/e2d99ba6-02c5-11ef-8247-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-4557",{"micros":40134,"calls":["id_created",{"micros":812,"calls":[]},"session_lookup_time",{"micros":543,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-10",{"micros":37575,"calls":["start_session",{"micros":34516,"calls":["discord-api-rpc-77fb6b466d-rmk44",{"micros":31091,"calls":["get_user",{"micros":5427},"get_guilds",{"micros":2533},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":201,"calls":[]},"guilds_started",{"micros":131,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":2645,"calls":[]},"connect_finished",{"micros":2651,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 184bf9eccea2d81f34a11179155dcc12).
+HTTP Request: GET http://localhost:8001/apps/0d49fc55-21af-463e-a648-425ece6f0ae3/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0d49fc55-21af-463e-a648-425ece6f0ae3/users/65f489a8-ab6c-4b0c-8dbd-7bd4a611d28e/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0d49fc55-21af-463e-a648-425ece6f0ae3/users/65f489a8-ab6c-4b0c-8dbd-7bd4a611d28e/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/0d49fc55-21af-463e-a648-425ece6f0ae3/users/65f489a8-ab6c-4b0c-8dbd-7bd4a611d28e/sessions/fb4f5bb0-f853-4ca2-9aae-b84b4ce09350/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/0d49fc55-21af-463e-a648-425ece6f0ae3/users/65f489a8-ab6c-4b0c-8dbd-7bd4a611d28e/sessions/fb4f5bb0-f853-4ca2-9aae-b84b4ce09350/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/026a5713-02c6-11ef-8047-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-1d66",{"micros":120560,"calls":["id_created",{"micros":761,"calls":[]},"session_lookup_time",{"micros":246,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-283",{"micros":118283,"calls":["start_session",{"micros":52137,"calls":["discord-api-rpc-77fb6b466d-w4msh",{"micros":48164,"calls":["get_user",{"micros":5590},"get_guilds",{"micros":3633},"send_scheduled_deletion_message",{"micros":8},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":47,"calls":[]},"presence_started",{"micros":270,"calls":[]},"guilds_started",{"micros":134,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":65673,"calls":[]},"connect_finished",{"micros":65679,"calls":[]},"build_ready",{"micros":12,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: ec51e0cc1f15343c593b9ba2d61c8558).
+HTTP Request: GET http://localhost:8001/apps/b5ac90c7-9d45-4306-81fb-c5ba1ef7875f/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/b5ac90c7-9d45-4306-81fb-c5ba1ef7875f/users/6d044452-1b1d-43b0-b5c1-761bf7c5f261/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/b5ac90c7-9d45-4306-81fb-c5ba1ef7875f/users/6d044452-1b1d-43b0-b5c1-761bf7c5f261/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/b5ac90c7-9d45-4306-81fb-c5ba1ef7875f/users/6d044452-1b1d-43b0-b5c1-761bf7c5f261/sessions/60e16ca0-d366-48f7-9904-13ad0919ecf9/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/b5ac90c7-9d45-4306-81fb-c5ba1ef7875f/users/6d044452-1b1d-43b0-b5c1-761bf7c5f261/sessions/60e16ca0-d366-48f7-9904-13ad0919ecf9/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/2b592c81-02c6-11ef-91d4-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-crr0",{"micros":132092,"calls":["id_created",{"micros":2061,"calls":[]},"session_lookup_time",{"micros":1647,"calls":[]},"session_lookup_finished",{"micros":23,"calls":[]},"discord-sessions-prd-1-3",{"micros":128094,"calls":["start_session",{"micros":60394,"calls":["discord-api-rpc-77fb6b466d-cbs6v",{"micros":45954,"calls":["get_user",{"micros":11924},"get_guilds",{"micros":5599},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":26060,"calls":[]},"guilds_started",{"micros":137,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":41421,"calls":[]},"connect_finished",{"micros":41427,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: d4e7e49127012765996668a1acef2987).
+HTTP Request: GET http://localhost:8001/apps/c126d0d5-7ad9-453e-bf57-ad44c5d16252/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c126d0d5-7ad9-453e-bf57-ad44c5d16252/users/a3828631-2cc5-4a5d-a5c6-cbb148a6a0bc/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c126d0d5-7ad9-453e-bf57-ad44c5d16252/users/a3828631-2cc5-4a5d-a5c6-cbb148a6a0bc/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/c126d0d5-7ad9-453e-bf57-ad44c5d16252/users/a3828631-2cc5-4a5d-a5c6-cbb148a6a0bc/sessions/fbcd0ec2-8335-43c1-adfd-752582b6c238/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/c126d0d5-7ad9-453e-bf57-ad44c5d16252/users/a3828631-2cc5-4a5d-a5c6-cbb148a6a0bc/sessions/fbcd0ec2-8335-43c1-adfd-752582b6c238/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/48c418ab-02c8-11ef-91d1-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-bbl5",{"micros":108671,"calls":["id_created",{"micros":1125,"calls":[]},"session_lookup_time",{"micros":1477,"calls":[]},"session_lookup_finished",{"micros":13,"calls":[]},"discord-sessions-prd-1-47",{"micros":105797,"calls":["start_session",{"micros":98674,"calls":["discord-api-rpc-77fb6b466d-b4z5b",{"micros":95166,"calls":["get_user",{"micros":29249},"get_guilds",{"micros":3179},"send_scheduled_deletion_message",{"micros":5},"guild_join_requests",{"micros":0},"authorized_ip_coro",{"micros":5}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":2211,"calls":[]},"guilds_started",{"micros":147,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4678,"calls":[]},"connect_finished",{"micros":4684,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: eaab1a4e2362e057412a12b47f1135ea).
+HTTP Request: GET http://localhost:8001/apps/d614bcf0-8767-4207-96d0-1f5d11bdbcdd/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/d614bcf0-8767-4207-96d0-1f5d11bdbcdd/users/d32dba76-99e8-4f48-b68f-f59070ecf144/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/d614bcf0-8767-4207-96d0-1f5d11bdbcdd/users/d32dba76-99e8-4f48-b68f-f59070ecf144/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/d614bcf0-8767-4207-96d0-1f5d11bdbcdd/users/d32dba76-99e8-4f48-b68f-f59070ecf144/sessions/7e68b3be-0837-4457-a61a-f70cad4b1417/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/d614bcf0-8767-4207-96d0-1f5d11bdbcdd/users/d32dba76-99e8-4f48-b68f-f59070ecf144/sessions/7e68b3be-0837-4457-a61a-f70cad4b1417/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/a145a5b0-02c8-11ef-b06d-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-8vx2",{"micros":75139,"calls":["id_created",{"micros":612,"calls":[]},"session_lookup_time",{"micros":318,"calls":[]},"session_lookup_finished",{"micros":18,"calls":[]},"discord-sessions-prd-1-43",{"micros":73065,"calls":["start_session",{"micros":64594,"calls":["discord-api-rpc-77fb6b466d-w27bw",{"micros":61296,"calls":["get_user",{"micros":4745},"get_guilds",{"micros":15806},"send_scheduled_deletion_message",{"micros":5},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":5}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":8012,"calls":[]},"guilds_started",{"micros":147,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":214,"calls":[]},"connect_finished",{"micros":219,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 660544b0af563fb605fdffcc76f19bd1).
+HTTP Request: GET http://localhost:8001/apps/3e7616c9-1188-40c5-bc62-6a390ad19e0d/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/3e7616c9-1188-40c5-bc62-6a390ad19e0d/users/a0445548-f0fd-4289-90f8-cf185523246c/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/3e7616c9-1188-40c5-bc62-6a390ad19e0d/users/a0445548-f0fd-4289-90f8-cf185523246c/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/3e7616c9-1188-40c5-bc62-6a390ad19e0d/users/a0445548-f0fd-4289-90f8-cf185523246c/sessions/352bb3a0-d309-4ce5-8c1d-529ce2b3c607/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/3e7616c9-1188-40c5-bc62-6a390ad19e0d/users/a0445548-f0fd-4289-90f8-cf185523246c/sessions/352bb3a0-d309-4ce5-8c1d-529ce2b3c607/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/2a21d83f-02c9-11ef-91d9-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-l0vh",{"micros":190194,"calls":["id_created",{"micros":638,"calls":[]},"session_lookup_time",{"micros":263,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-9",{"micros":185867,"calls":["start_session",{"micros":148871,"calls":["discord-api-rpc-77fb6b466d-rmk44",{"micros":139398,"calls":["get_user",{"micros":13844},"get_guilds",{"micros":18803},"send_scheduled_deletion_message",{"micros":18},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":56,"calls":[]},"presence_started",{"micros":301,"calls":[]},"guilds_started",{"micros":154,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":36458,"calls":[]},"connect_finished",{"micros":36463,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: f903b9705cb0d375b41e27f1ee6d469a).
+HTTP Request: GET http://localhost:8001/apps/050d69ec-27e4-4214-972c-5f57583e4fe5/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/050d69ec-27e4-4214-972c-5f57583e4fe5/users/e19bc6cd-b91a-4bbb-b5d9-9e0e4bfe1d40/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/050d69ec-27e4-4214-972c-5f57583e4fe5/users/e19bc6cd-b91a-4bbb-b5d9-9e0e4bfe1d40/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/050d69ec-27e4-4214-972c-5f57583e4fe5/users/e19bc6cd-b91a-4bbb-b5d9-9e0e4bfe1d40/sessions/9c07b13d-6c80-4c7e-9e64-4f129345e8bc/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/050d69ec-27e4-4214-972c-5f57583e4fe5/users/e19bc6cd-b91a-4bbb-b5d9-9e0e4bfe1d40/sessions/9c07b13d-6c80-4c7e-9e64-4f129345e8bc/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/59525945-02c9-11ef-b180-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-650d",{"micros":82433,"calls":["id_created",{"micros":1068,"calls":[]},"session_lookup_time",{"micros":342,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-206",{"micros":79609,"calls":["start_session",{"micros":43976,"calls":["discord-api-rpc-77fb6b466d-pxtn2",{"micros":40272,"calls":["get_user",{"micros":5341},"get_guilds",{"micros":3837},"send_scheduled_deletion_message",{"micros":5},"guild_join_requests",{"micros":132},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":65,"calls":[]},"presence_started",{"micros":200,"calls":[]},"guilds_started",{"micros":133,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":35208,"calls":[]},"connect_finished",{"micros":35213,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 5064eba2b3b60cbb711c0160b7fbdc4d).
+HTTP Request: GET http://localhost:8001/apps/844e988d-09df-42b4-b0c9-56e8903d452f/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/844e988d-09df-42b4-b0c9-56e8903d452f/users/d3ad59d9-3ba2-4200-9bc6-7e4205b82f7e/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/844e988d-09df-42b4-b0c9-56e8903d452f/users/d3ad59d9-3ba2-4200-9bc6-7e4205b82f7e/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/844e988d-09df-42b4-b0c9-56e8903d452f/users/d3ad59d9-3ba2-4200-9bc6-7e4205b82f7e/sessions/118e1f4f-f72b-468d-b7f0-78415798054a/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/844e988d-09df-42b4-b0c9-56e8903d452f/users/d3ad59d9-3ba2-4200-9bc6-7e4205b82f7e/sessions/118e1f4f-f72b-468d-b7f0-78415798054a/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/73dcef9d-02c9-11ef-aa8f-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-h4kf",{"micros":60612,"calls":["id_created",{"micros":698,"calls":[]},"session_lookup_time",{"micros":388,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-212",{"micros":56720,"calls":["start_session",{"micros":46177,"calls":["discord-api-rpc-77fb6b466d-8cgx5",{"micros":41784,"calls":["get_user",{"micros":5959},"get_guilds",{"micros":2887},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":834},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":63,"calls":[]},"presence_started",{"micros":183,"calls":[]},"guilds_started",{"micros":139,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":10131,"calls":[]},"connect_finished",{"micros":10136,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: d7d0f28856dbe06735a1e7364823872f).
+HTTP Request: GET http://localhost:8001/apps/d2651e47-608e-4842-9cce-3306ad2d28e7/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/d2651e47-608e-4842-9cce-3306ad2d28e7/users/cc10c5b6-5867-477a-8425-52b8f0fa3478/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/d2651e47-608e-4842-9cce-3306ad2d28e7/users/cc10c5b6-5867-477a-8425-52b8f0fa3478/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/d2651e47-608e-4842-9cce-3306ad2d28e7/users/cc10c5b6-5867-477a-8425-52b8f0fa3478/sessions/0dec3efb-203d-4be9-af9c-d0e354c97468/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/d2651e47-608e-4842-9cce-3306ad2d28e7/users/cc10c5b6-5867-477a-8425-52b8f0fa3478/sessions/0dec3efb-203d-4be9-af9c-d0e354c97468/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/c1f36b40-02c9-11ef-8b0c-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-9rmr",{"micros":144242,"calls":["id_created",{"micros":613,"calls":[]},"session_lookup_time",{"micros":8481,"calls":[]},"session_lookup_finished",{"micros":19,"calls":[]},"discord-sessions-prd-1-55",{"micros":133844,"calls":["start_session",{"micros":92716,"calls":["discord-api-rpc-77fb6b466d-f4ksk",{"micros":84207,"calls":["get_user",{"micros":7879},"get_guilds",{"micros":3065},"send_scheduled_deletion_message",{"micros":15},"guild_join_requests",{"micros":790},"authorized_ip_coro",{"micros":10}]}]},"starting_guild_connect",{"micros":58,"calls":[]},"presence_started",{"micros":12949,"calls":[]},"guilds_started",{"micros":116,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":27982,"calls":[]},"connect_finished",{"micros":27986,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 092d224a736000909511cb8413779ee8).
+HTTP Request: GET http://localhost:8001/apps/4b4179fa-93eb-4134-b713-366986c0b5f2/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/4b4179fa-93eb-4134-b713-366986c0b5f2/users/6b82183c-f0fc-4910-8afe-6bd1c0a5decd/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/4b4179fa-93eb-4134-b713-366986c0b5f2/users/6b82183c-f0fc-4910-8afe-6bd1c0a5decd/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/4b4179fa-93eb-4134-b713-366986c0b5f2/users/6b82183c-f0fc-4910-8afe-6bd1c0a5decd/sessions/1711659f-99e2-4fd7-9d4d-76b0a2c3f98a/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/4b4179fa-93eb-4134-b713-366986c0b5f2/users/6b82183c-f0fc-4910-8afe-6bd1c0a5decd/sessions/1711659f-99e2-4fd7-9d4d-76b0a2c3f98a/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/f2cc2223-02c9-11ef-a641-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-zr6z",{"micros":100297,"calls":["id_created",{"micros":737,"calls":[]},"session_lookup_time",{"micros":253,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-23",{"micros":99072,"calls":["start_session",{"micros":42482,"calls":["discord-api-rpc-77fb6b466d-4lscj",{"micros":39009,"calls":["get_user",{"micros":5747},"get_guilds",{"micros":2582},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":60,"calls":[]},"presence_started",{"micros":11452,"calls":[]},"guilds_started",{"micros":130,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":44924,"calls":[]},"connect_finished",{"micros":44928,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 113b353423ffc37c710691f69d6662ca).
+HTTP Request: GET http://localhost:8001/apps/b28b1617-eb29-48ec-bee5-479d43addcf0/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/b28b1617-eb29-48ec-bee5-479d43addcf0/users/3fbcfb04-26e9-419e-aca0-daf52eab9363/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/b28b1617-eb29-48ec-bee5-479d43addcf0/users/3fbcfb04-26e9-419e-aca0-daf52eab9363/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/b28b1617-eb29-48ec-bee5-479d43addcf0/users/3fbcfb04-26e9-419e-aca0-daf52eab9363/sessions/7718e224-9c66-4569-8b70-c43670c50f8d/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/b28b1617-eb29-48ec-bee5-479d43addcf0/users/3fbcfb04-26e9-419e-aca0-daf52eab9363/sessions/7718e224-9c66-4569-8b70-c43670c50f8d/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/25b61e58-02ca-11ef-b51d-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-cqch",{"micros":108573,"calls":["id_created",{"micros":748,"calls":[]},"session_lookup_time",{"micros":286,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-206",{"micros":106368,"calls":["start_session",{"micros":44588,"calls":["discord-api-rpc-77fb6b466d-h2nbc",{"micros":41087,"calls":["get_user",{"micros":5490},"get_guilds",{"micros":2468},"send_scheduled_deletion_message",{"micros":14},"guild_join_requests",{"micros":620},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":76,"calls":[]},"presence_started",{"micros":17202,"calls":[]},"guilds_started",{"micros":145,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":44332,"calls":[]},"connect_finished",{"micros":44336,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 708bd0269cba150fffd5a5d18c79713d).
+HTTP Request: GET http://localhost:8001/apps/a78bbd59-a42e-4701-8b39-869583797d66/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/a78bbd59-a42e-4701-8b39-869583797d66/users/60233c17-4691-4ffc-b4d4-d9f7d5246639/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/a78bbd59-a42e-4701-8b39-869583797d66/users/60233c17-4691-4ffc-b4d4-d9f7d5246639/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/a78bbd59-a42e-4701-8b39-869583797d66/users/60233c17-4691-4ffc-b4d4-d9f7d5246639/sessions/b2d6d967-947b-4921-98db-467bb9387ba5/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/a78bbd59-a42e-4701-8b39-869583797d66/users/60233c17-4691-4ffc-b4d4-d9f7d5246639/sessions/b2d6d967-947b-4921-98db-467bb9387ba5/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/72e74090-02ca-11ef-9f97-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-qvk9",{"micros":56090,"calls":["id_created",{"micros":721,"calls":[]},"session_lookup_time",{"micros":287,"calls":[]},"session_lookup_finished",{"micros":21,"calls":[]},"discord-sessions-prd-1-14",{"micros":54823,"calls":["start_session",{"micros":47994,"calls":["discord-api-rpc-77fb6b466d-8cgx5",{"micros":43309,"calls":["get_user",{"micros":5688},"get_guilds",{"micros":3720},"send_scheduled_deletion_message",{"micros":9},"guild_join_requests",{"micros":588},"authorized_ip_coro",{"micros":7}]}]},"starting_guild_connect",{"micros":57,"calls":[]},"presence_started",{"micros":191,"calls":[]},"guilds_started",{"micros":170,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":6383,"calls":[]},"connect_finished",{"micros":6388,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: a1b59873fc5f781692914756c28837d6).
+HTTP Request: GET http://localhost:8001/apps/10c1d0b5-cdb6-4f4e-934e-4e35d9dab7f4/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/10c1d0b5-cdb6-4f4e-934e-4e35d9dab7f4/users/6bf75849-e8df-45e0-be61-49ed15bd40b3/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/10c1d0b5-cdb6-4f4e-934e-4e35d9dab7f4/users/6bf75849-e8df-45e0-be61-49ed15bd40b3/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/10c1d0b5-cdb6-4f4e-934e-4e35d9dab7f4/users/6bf75849-e8df-45e0-be61-49ed15bd40b3/sessions/c03fd2a1-c48a-4ab5-b8ff-52ece3e26777/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/10c1d0b5-cdb6-4f4e-934e-4e35d9dab7f4/users/6bf75849-e8df-45e0-be61-49ed15bd40b3/sessions/c03fd2a1-c48a-4ab5-b8ff-52ece3e26777/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/ab4e4c1d-02ca-11ef-8851-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-bbl5",{"micros":101748,"calls":["id_created",{"micros":633,"calls":[]},"session_lookup_time",{"micros":4954,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-275",{"micros":95909,"calls":["start_session",{"micros":45543,"calls":["discord-api-rpc-77fb6b466d-89mwv",{"micros":40802,"calls":["get_user",{"micros":6853},"get_guilds",{"micros":2822},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":46,"calls":[]},"presence_started",{"micros":235,"calls":[]},"guilds_started",{"micros":128,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":49927,"calls":[]},"connect_finished",{"micros":49933,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: c6329c7862922c7e887dfca5703acbc7).
+HTTP Request: GET http://localhost:8001/apps/705c3885-0349-4f09-8c2c-73b989dea449/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/705c3885-0349-4f09-8c2c-73b989dea449/users/adf7b3ed-db57-45a0-9a67-02f709d4c87f/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/705c3885-0349-4f09-8c2c-73b989dea449/users/adf7b3ed-db57-45a0-9a67-02f709d4c87f/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/705c3885-0349-4f09-8c2c-73b989dea449/users/adf7b3ed-db57-45a0-9a67-02f709d4c87f/sessions/3335d607-e174-479f-8c97-cf51b201aa5c/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/705c3885-0349-4f09-8c2c-73b989dea449/users/adf7b3ed-db57-45a0-9a67-02f709d4c87f/sessions/3335d607-e174-479f-8c97-cf51b201aa5c/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/16405204-02cc-11ef-955e-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-zjmr",{"micros":250505,"calls":["id_created",{"micros":499,"calls":[]},"session_lookup_time",{"micros":306,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-159",{"micros":249452,"calls":["start_session",{"micros":162816,"calls":["discord-api-rpc-77fb6b466d-2d8kb",{"micros":156976,"calls":["get_user",{"micros":8663},"get_guilds",{"micros":4894},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":2},"authorized_ip_coro",{"micros":12}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":42527,"calls":[]},"guilds_started",{"micros":134,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":43897,"calls":[]},"connect_finished",{"micros":43902,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: 2b0f735dc23383c6e0a85ca33c34a9eb).
+HTTP Request: GET http://localhost:8001/apps/18db63df-0a06-410d-8d41-e8b7b1e2991b/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/18db63df-0a06-410d-8d41-e8b7b1e2991b/users/cfe8c180-816b-45b6-9e07-23890ff509a2/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/18db63df-0a06-410d-8d41-e8b7b1e2991b/users/cfe8c180-816b-45b6-9e07-23890ff509a2/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/18db63df-0a06-410d-8d41-e8b7b1e2991b/users/cfe8c180-816b-45b6-9e07-23890ff509a2/sessions/eaa2b565-ce93-483f-bdf8-04784c25a6b7/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/18db63df-0a06-410d-8d41-e8b7b1e2991b/users/cfe8c180-816b-45b6-9e07-23890ff509a2/sessions/eaa2b565-ce93-483f-bdf8-04784c25a6b7/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/4ac82c56-02cc-11ef-877e-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-rrxp",{"micros":78113,"calls":["id_created",{"micros":700,"calls":[]},"session_lookup_time",{"micros":1517,"calls":[]},"session_lookup_finished",{"micros":15,"calls":[]},"discord-sessions-prd-1-153",{"micros":74664,"calls":["start_session",{"micros":36667,"calls":["discord-api-rpc-77fb6b466d-dn2wc",{"micros":33185,"calls":["get_user",{"micros":5777},"get_guilds",{"micros":3217},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":43,"calls":[]},"presence_started",{"micros":277,"calls":[]},"guilds_started",{"micros":137,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":37515,"calls":[]},"connect_finished",{"micros":37520,"calls":[]},"build_ready",{"micros":15,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 773162afac86009a95aee093ead0e55e).
+HTTP Request: GET http://localhost:8001/apps/16999ec8-ddd2-46b5-8866-34fe30e5fb40/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/16999ec8-ddd2-46b5-8866-34fe30e5fb40/users/172a57bf-6076-4be7-8a89-3ebe5a1942b4/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/16999ec8-ddd2-46b5-8866-34fe30e5fb40/users/172a57bf-6076-4be7-8a89-3ebe5a1942b4/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/16999ec8-ddd2-46b5-8866-34fe30e5fb40/users/172a57bf-6076-4be7-8a89-3ebe5a1942b4/sessions/67dddeaa-1ea5-47c8-99a9-68b2986d2b1f/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/16999ec8-ddd2-46b5-8866-34fe30e5fb40/users/172a57bf-6076-4be7-8a89-3ebe5a1942b4/sessions/67dddeaa-1ea5-47c8-99a9-68b2986d2b1f/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/ae0e88ef-02cc-11ef-a4ab-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-6tjg",{"micros":123391,"calls":["id_created",{"micros":521,"calls":[]},"session_lookup_time",{"micros":311,"calls":[]},"session_lookup_finished",{"micros":12,"calls":[]},"discord-sessions-prd-1-233",{"micros":121487,"calls":["start_session",{"micros":40201,"calls":["discord-api-rpc-77fb6b466d-78fwm",{"micros":36831,"calls":["get_user",{"micros":6071},"get_guilds",{"micros":2772},"send_scheduled_deletion_message",{"micros":7},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":6}]}]},"starting_guild_connect",{"micros":53,"calls":[]},"presence_started",{"micros":28806,"calls":[]},"guilds_started",{"micros":185,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":52214,"calls":[]},"connect_finished",{"micros":52220,"calls":[]},"build_ready",{"micros":17,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 7e7e7265efdbd029adff10bc71c87d26).
+HTTP Request: GET http://localhost:8001/apps/2888ca1c-4a09-4b5b-815d-38eed586eca0/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/2888ca1c-4a09-4b5b-815d-38eed586eca0/users/882528da-2db0-4fb6-9d85-323d9f5657d6/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/2888ca1c-4a09-4b5b-815d-38eed586eca0/users/882528da-2db0-4fb6-9d85-323d9f5657d6/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/2888ca1c-4a09-4b5b-815d-38eed586eca0/users/882528da-2db0-4fb6-9d85-323d9f5657d6/sessions/ccdaf657-656b-4717-8afb-e9393e18a977/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/2888ca1c-4a09-4b5b-815d-38eed586eca0/users/882528da-2db0-4fb6-9d85-323d9f5657d6/sessions/ccdaf657-656b-4717-8afb-e9393e18a977/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/ddc344e7-02cc-11ef-b634-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-b-696c",{"micros":86241,"calls":["id_created",{"micros":740,"calls":[]},"session_lookup_time",{"micros":569,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-1-202",{"micros":83766,"calls":["start_session",{"micros":37978,"calls":["discord-api-rpc-77fb6b466d-js2xs",{"micros":34379,"calls":["get_user",{"micros":4681},"get_guilds",{"micros":2908},"send_scheduled_deletion_message",{"micros":10},"guild_join_requests",{"micros":1},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":61,"calls":[]},"presence_started",{"micros":270,"calls":[]},"guilds_started",{"micros":129,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":45300,"calls":[]},"connect_finished",{"micros":45306,"calls":[]},"build_ready",{"micros":16,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":0,"calls":[]}]}]}] (Session ID: e1a9fd0817a00ef24f0635e26df885a3).
+HTTP Request: GET http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/177622a7-874f-4f27-9362-bab09a2d623a/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/177622a7-874f-4f27-9362-bab09a2d623a/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/177622a7-874f-4f27-9362-bab09a2d623a/sessions/472f6621-1ff8-4755-8551-a52ffe202dbc/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/177622a7-874f-4f27-9362-bab09a2d623a/sessions/472f6621-1ff8-4755-8551-a52ffe202dbc/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/177622a7-874f-4f27-9362-bab09a2d623a/sessions/472f6621-1ff8-4755-8551-a52ffe202dbc/metamessages "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/414d4a2d-b717-4894-abe3-e1582fbd8508/users/177622a7-874f-4f27-9362-bab09a2d623a "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/612c3af5-02cd-11ef-b104-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-c-9cd2",{"micros":87592,"calls":["id_created",{"micros":731,"calls":[]},"session_lookup_time",{"micros":216,"calls":[]},"session_lookup_finished",{"micros":11,"calls":[]},"discord-sessions-prd-1-194",{"micros":85612,"calls":["start_session",{"micros":84933,"calls":["discord-api-rpc-77fb6b466d-kgjfh",{"micros":79884,"calls":["get_user",{"micros":46286},"get_guilds",{"micros":2759},"send_scheduled_deletion_message",{"micros":6},"guild_join_requests",{"micros":0},"authorized_ip_coro",{"micros":9}]}]},"starting_guild_connect",{"micros":59,"calls":[]},"presence_started",{"micros":232,"calls":[]},"guilds_started",{"micros":121,"calls":[]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":245,"calls":[]},"connect_finished",{"micros":249,"calls":[]},"build_ready",{"micros":13,"calls":[]},"clean_ready",{"micros":1,"calls":[]},"optimize_ready",{"micros":0,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 448e7deb1aff8e8304ed6e62ccf6d768).
+HTTP Request: GET http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c/sessions/5369f1f8-6d54-46e8-9bf7-df786b8f37ab/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c/sessions/5369f1f8-6d54-46e8-9bf7-df786b8f37ab/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c/sessions/5369f1f8-6d54-46e8-9bf7-df786b8f37ab/metamessages "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/ed8aa512-dec7-4822-a473-5c374a710848/users/2222e126-faa7-46f9-83dc-8aee90d4323c "HTTP/1.1 200 OK"
+Received signal to terminate bot and event loop.
+Cleaning up tasks.
+Cleaning up after 1 tasks.
+All tasks finished cancelling.
+Closing the event loop.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+HTTP Request: GET http://localhost:8001/apps/get_or_create/cffbc2e8-02cd-11ef-939e-1cbfc0902a56 "HTTP/1.1 200 OK"
+logging in using static token
+Shard ID None has sent the IDENTIFY payload.
+Shard ID None has connected to Gateway: ["gateway-prd-us-east1-d-rsrg",{"micros":92624,"calls":["id_created",{"micros":632,"calls":[]},"session_lookup_time",{"micros":277,"calls":[]},"session_lookup_finished",{"micros":14,"calls":[]},"discord-sessions-prd-1-114",{"micros":91351,"calls":["start_session",{"micros":49098,"calls":["discord-api-rpc-77fb6b466d-wlwhr",{"micros":44406,"calls":["get_user",{"micros":5640},"get_guilds",{"micros":3239},"send_scheduled_deletion_message",{"micros":39},"guild_join_requests",{"micros":613},"authorized_ip_coro",{"micros":8}]}]},"starting_guild_connect",{"micros":52,"calls":[]},"presence_started",{"micros":257,"calls":[]},"guilds_started",{"micros":117,"calls":[]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":41797,"calls":[]},"connect_finished",{"micros":41803,"calls":[]},"build_ready",{"micros":18,"calls":[]},"clean_ready",{"micros":0,"calls":[]},"optimize_ready",{"micros":1,"calls":[]},"split_ready",{"micros":1,"calls":[]}]}]}] (Session ID: 51427442354794d547ea9fe7aecf9c9a).
+HTTP Request: GET http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/metamessages "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/metamessages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/messages "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/get_or_create/discord_738704828494118953 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions?page=1&size=50&reverse=true&is_active=true&location_id=1232884675505160203 "HTTP/1.1 200 OK"
+HTTP Request: GET http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/messages?page=1&size=50&reverse=false "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "C:\Users\strau\honcho\example\discord\honcho-dspy-personas\bot.py", line 149, in <module>
+    bot.run(os.environ["BOT_TOKEN"])
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 756, in run
+    loop.run_forever()
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+    self._run_once()
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1922, in _run_once
+    handle._run()
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 400, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\strau\honcho\example\discord\honcho-dspy-personas\bot.py", line 68, in on_message
+    response = await chat(
+  File "C:\Users\strau\honcho\example\discord\honcho-dspy-personas\graph.py", line 79, in chat
+    is_state_new, user_state = await state_extractor.generate_state(
+  File "C:\Users\strau\honcho\example\discord\honcho-dspy-personas\chain.py", line 122, in generate_state
+    is_state_new = await self.check_state_exists(existing_states, state_label)
+  File "C:\Users\strau\honcho\example\discord\honcho-dspy-personas\chain.py", line 112, in check_state_exists
+    response = self.anthropic.invoke(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 158, in invoke
+    self.generate_prompt(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 560, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 411, in generate
+    self._generate_with_cache(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_core\language_models\chat_models.py", line 632, in _generate_with_cache
+    result = self._generate(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\langchain_anthropic\chat_models.py", line 514, in _generate
+    data = self._client.messages.create(**params)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\anthropic\_utils\_utils.py", line 277, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\anthropic\resources\messages.py", line 678, in create
+    return self._post(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\anthropic\_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\anthropic\_base_client.py", line 921, in request
+    return self._request(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\anthropic\_base_client.py", line 950, in _request
+    response = self._client.send(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 915, in send
+    response = self._send_handling_auth(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 943, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 980, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1016, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 231, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\connection_pool.py", line 196, in handle_request
+    response = connection.handle_request(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 113, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 186, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_sync\http11.py", line 224, in _receive_event
+    data = self._network_stream.read(
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    return self._sock.recv(max_bytes)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1296, in recv
+    return self.read(buflen)
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\ssl.py", line 1169, in read
+    return self._sslobj.read(len)
+
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/metamessages "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f "HTTP/1.1 200 OK"
+HTTP Request: PUT http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/metamessages "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+Retrying request to /v1/messages in 0.782778 seconds
+HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Websocket closed with 1000, cannot reconnect.
+Attempting a reconnect in 0.77s
+Traceback (most recent call last):
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\client.py", line 601, in connect
+    await self.ws.poll_event()
+  File "C:\Users\strau\AppData\Local\Programs\Python\Python311\Lib\site-packages\discord\gateway.py", line 632, in poll_event
+    raise ConnectionClosed(
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+HTTP Request: POST http://localhost:8001/apps/f7d2b79c-b8dc-4388-80ef-12a5302c381c/users/15271e9d-9c0c-42f4-a744-2f50a82bd60f/sessions/6ee99af4-141b-4df5-9fde-41f2ae348b64/messages "HTTP/1.1 200 OK"
+Shard ID None has sent the RESUME payload.
+Shard ID None has successfully RESUMED session 51427442354794d547ea9fe7aecf9c9a under trace ["gateway-prd-us-east1-b-ptrv",{"micros":41913,"calls":["id_created",{"micros":0,"calls":[]},"session_lookup_time",{"micros":611,"calls":[]},"session_lookup_finished",{"micros":17,"calls":[]},"discord-sessions-prd-1-114",{"micros":30}]}].
