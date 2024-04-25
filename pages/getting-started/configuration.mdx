@@ -1,0 +1,101 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Configuration
+
+Namastex Insights provides a range of configuration options to tailor the bot's behavior and functionality to your specific needs. This section will guide you through the process of customizing Namastex Insights to align with your Discord server's requirements and preferences.
+
+## Environment Variables
+
+Namastex Insights utilizes environment variables to store sensitive information and configuration settings. To configure the bot, you'll need to set the following environment variables:
+
+- `ANTHROPIC_API_KEY`: Your Anthropic API key for accessing the Claude API.
+- `STABILITYAI_API_KEY`: Your StabilityAI API key for image and video generation.
+- `HONCHO_API_KEY`: Your Honcho API key for user authentication, session management, and storing user metadata.
+- `BOT_TOKEN`: Your Discord bot token for authenticating and connecting the bot to your server.
+
+<Callout type="warning">
+  Make sure to keep your API keys and bot token secure and never share them publicly. It's recommended to use a `.env` file to store these sensitive values.
+</Callout>
+
+## Configuration Files
+
+Namastex Insights uses several configuration files to define its behavior and settings. The main configuration files are:
+
+- `config.yaml`: The primary configuration file for Namastex Insights. It contains settings such as the bot's prefix, default language, and other general preferences.
+- `prompts.yaml`: This file contains the prompts and templates used by the bot for generating responses and performing various tasks.
+
+To customize the bot's behavior, you can modify these configuration files according to your needs. For example, you can adjust the bot's response style, change the default language, or add new prompts for specific use cases.
+
+<Steps>
+### Step 1: Locate the Configuration Files
+
+Navigate to the `config` directory in the Namastex Insights project folder. You'll find the `config.yaml` and `prompts.yaml` files in this directory.
+
+### Step 2: Modify the Configuration Settings
+
+Open the `config.yaml` file in a text editor and make the necessary changes to the configuration settings. For example, you can modify the bot's prefix or adjust the default language.
+
+```yaml
+bot:
+  prefix: "!"
+  default_language: "en"
+```
+
+### Step 3: Customize the Prompts
+
+Open the `prompts.yaml` file and review the existing prompts and templates. You can modify these prompts or add new ones to suit your specific requirements. For example, you can customize the welcome message or add prompts for specific commands.
+
+```yaml
+welcome_message: "Welcome to the server! I'm Namastex Insights, your AI-powered assistant."
+help_command_prompt: "Here are the available commands:\n- !help: Display this help message\n- !generate: Generate art based on user input"
+```
+
+### Step 4: Save the Configuration Files
+
+After making the desired changes, save the `config.yaml` and `prompts.yaml` files. Namastex Insights will automatically load the updated configuration when it starts.
+
+</Steps>
+
+## Fine-tuning the AI Models
+
+Namastex Insights leverages advanced AI models for natural language processing, conversation management, and art generation. While the default models provide excellent performance out of the box, you may want to fine-tune them to better align with your specific domain or use case.
+
+To fine-tune the AI models, you can provide additional training data or adjust the model parameters. For example, you can:
+
+- Collect and label domain-specific conversational data to fine-tune the language model.
+- Adjust the model's hyperparameters, such as learning rate or batch size, to optimize its performance.
+- Experiment with different model architectures or pre-trained weights to find the best fit for your requirements.
+
+<Callout type="info">
+  Fine-tuning AI models requires technical expertise and computational resources. It's recommended to consult with the Namastex Insights development team or refer to the respective API documentation for guidance on fine-tuning the models.
+</Callout>
+
+## Customizing the User Interface
+
+Namastex Insights provides a default user interface for interacting with the bot on Discord. However, you can customize the interface to match your server's branding or style.
+
+To customize the user interface, you can:
+
+- Modify the bot's profile picture and username to align with your server's branding.
+- Customize the bot's responses and messages to match your server's tone and style.
+- Implement custom slash commands or buttons to provide a more intuitive and streamlined user experience.
+
+Refer to the [Discord Developer Documentation](https://discord.com/developers/docs/intro) for detailed instructions on customizing the bot's user interface.
+
+## Logging and Monitoring
+
+Namastex Insights generates logs to help you monitor the bot's activity and diagnose any issues that may arise. By default, the bot logs important events and errors to the console and a log file.
+
+To configure logging and monitoring, you can:
+
+- Adjust the logging level in the `config.yaml` file to control the verbosity of the logs.
+- Set up log rotation to automatically archive and compress old log files.
+- Integrate with external logging and monitoring services, such as Sentry or Elasticsearch, for advanced log management and analysis.
+
+<Callout type="info">
+  It's important to regularly review the logs to identify any potential issues or abnormal behavior. Keeping an eye on the bot's performance and resource usage can help you proactively address any problems and ensure a smooth user experience.
+</Callout>
+
+By following the configuration steps outlined in this section, you can customize Namastex Insights to fit seamlessly into your Discord server and provide a tailored experience for your users. Remember to experiment with different settings and configurations to find the optimal setup for your specific requirements.
+
+If you encounter any challenges or have further questions regarding the configuration of Namastex Insights, refer to the [Troubleshooting and FAQs](/troubleshooting-and-faqs) section or reach out to the Namastex Insights support team for assistance.

@@ -1,0 +1,83 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Adding New Features
+
+Namastex Insights' modular architecture allows for seamless integration of new features and functionalities. Whether you want to extend the bot's capabilities or integrate additional APIs, the codebase provides a solid foundation for customization and extension.
+
+## Identifying the Feature
+
+Before diving into the implementation, it's essential to clearly define the feature you want to add. Consider the following questions:
+
+- What problem does this feature solve?
+- How will it enhance the user experience?
+- Does it align with the overall goals and purpose of Namastex Insights?
+
+Once you have a clear understanding of the feature, you can proceed with the implementation.
+
+## Choosing the Right Module
+
+Namastex Insights' codebase is organized into distinct modules, each serving a specific purpose. To add a new feature, you need to identify the module that best fits the functionality you want to implement. Here are the main modules and their responsibilities:
+
+- `art_maestro.py`: Handles the art generation process, including sub-task breakdown, execution, and refinement.
+- `bot.py`: Serves as the main entry point, managing Discord events, slash commands, and user interactions.
+- `chain.py`: Implements the `StateExtractor` class for determining user states based on chat history and input.
+- `graph.py`: Defines the `ChatWithThought` module for generating thoughtful responses and optimizing the chat module.
+- `response_metric.py`: Provides a metric function for assessing the quality of generated responses using GPT-4.
+
+<Callout>
+If your feature doesn't fit into any of the existing modules, you might need to create a new module to encapsulate the functionality.
+</Callout>
+
+## Implementing the Feature
+
+Once you've identified the module where your feature belongs, follow these steps to implement it:
+
+<Steps>
+
+### Step 1: Create a new function or class
+
+Depending on the complexity of your feature, you might need to create a new function or class within the chosen module. Give it a descriptive name that reflects its purpose.
+
+### Step 2: Implement the feature logic
+
+Write the code that implements the desired functionality. This might involve integrating with external APIs, processing user input, generating responses, or modifying existing behavior.
+
+### Step 3: Test the feature
+
+Ensure that your new feature works as expected by thoroughly testing it. Create test cases that cover different scenarios and edge cases. You can use the existing test framework or create a new one specifically for your feature.
+
+### Step 4: Integrate with existing code
+
+Integrate your new feature with the existing codebase. This might involve modifying existing functions or classes to incorporate the new functionality seamlessly.
+
+### Step 5: Update the documentation
+
+Don't forget to update the documentation to reflect the new feature. Provide clear explanations and examples of how to use the feature, along with any necessary configuration or setup instructions.
+
+</Steps>
+
+## Example: Adding a New Slash Command
+
+Let's say you want to add a new slash command called `/translate` that translates user messages into a specified language. Here's how you can implement it:
+
+1. Open the `bot.py` module.
+2. Create a new function called `translate` and decorate it with `@bot.slash_command()`.
+3. Implement the translation logic using an external translation API or library.
+4. Test the command by invoking it with different messages and languages.
+5. Update the documentation in the [Introduction](/introduction) section to mention the new `/translate` command.
+
+```python
+@bot.slash_command(name="translate", description="Translate a message into a specified language")
+async def translate(ctx, message: str, target_language: str):
+    # Implement the translation logic here
+    translated_message = translate_message(message, target_language)
+    await ctx.respond(translated_message)
+```
+
+By following this process, you can seamlessly add new features to Namastex Insights, extending its capabilities and providing additional value to your users.
+
+<Callout>
+Remember to test your new features thoroughly and ensure they integrate smoothly with the existing functionality.
+</Callout>
+
+For more information on customizing Namastex Insights, refer to the [Customizing Behavior](/customization-and-extension/customizing-behavior) section.

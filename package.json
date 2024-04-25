@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "next": "^14.2.3",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "typescript": "^5.4.5"
+  },
+  "name": "Namastex-with-lumentis",
+  "description": "This is a Discord bot source code written in Python. The bot is designed to provide AI-powered conversation and art generation capabilities. It uses Anthropic's Claude API for natural language processing and conversation, and StabilityAI's API for generating images and videos based on user prompts.The code is structured into several files:art_maestro.py: Contains functions for orchestrating the art generation process, including breaking down user objectives, executing sub-tasks, and refining the final output.bot.py: The main entry point of the bot, handling Discord events, slash commands, and user interactions.chain.py: Defines the StateExtractor class for determining user states based on chat history and input.graph.py: Implements the ChatWithThought module for generating thoughts and responses based on user states, and optimizing the chat module using few-shot learning.response_metric.py: Defines a metric function for assessing the quality of generated responses using GPT-4.The bot leverages the Honcho framework for managing user sessions, message history, and metadata. It uses a loop of orchestration, sub-task execution, and refinement to handle complex art generation tasks based on user objectives.Overall, the source code demonstrates a sophisticated Discord bot that combines AI-driven conversation and art generation to provide an engaging and interactive user experience.",
+  "version": "0.0.1",
+  "scripts": {
+    "devstart": "next dev -p 5656 & node start.js",
+    "dev": "next dev -p 5656",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "Core themes:AI-powered personalizationUser context managementIntelligent conversationDiscord bot enhancementSeamless integrationKeywords:Artificial Intelligence (AI)DiscordContext managementPersonalizationUser engagementConversationAdaptationIntegrationCommunityHoncho (the underlying platform)Intended audience:Discord server ownersCommunity managersDevelopers interested in AI and chatbotsResearchers exploring AI-driven conversationDiscord users seeking enhanced interaction experiences"
+  ]
+}

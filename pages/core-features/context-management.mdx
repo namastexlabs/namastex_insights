@@ -1,0 +1,59 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Context Management
+
+At the core of Namastex Insights lies its advanced context management system, which enables the bot to understand and adapt to the nuances of user interactions. By leveraging state-of-the-art natural language processing techniques and the power of the [StateExtractor](/core-features/context-management#stateextractor) class, Namastex Insights constructs a comprehensive understanding of the user's current state, allowing it to provide highly personalized and context-relevant responses.
+
+## StateExtractor: Unraveling User States
+
+The `StateExtractor` class serves as the backbone of Namastex Insights' context management system. It employs sophisticated algorithms to analyze the user's chat history and inputs, generating insightful state commentaries and labels. By meticulously examining the conversational context, the `StateExtractor` unravels the intricacies of user interactions, enabling the bot to grasp the user's intent and preferences.
+
+<Callout type="info">
+The `StateExtractor` utilizes Anthropic's Claude API to generate state commentaries and labels, ensuring high-quality natural language understanding.
+</Callout>
+
+The process of determining user states can be summarized in the following steps:
+
+<Steps>
+### Step 1: Retrieve Existing States
+
+The `StateExtractor` retrieves the user's existing states from the Honcho database, providing a foundation for context analysis.
+
+### Step 2: Generate State Commentary
+
+Based on the user's chat history and current input, the `StateExtractor` generates a state commentary using the `generate_state_commentary` method. This commentary provides a detailed understanding of the user's current state.
+
+### Step 3: Generate State Label
+
+The `generate_state_label` method takes the state commentary and existing states to generate a concise label that represents the user's current state. This label serves as a key identifier for personalized interactions.
+
+### Step 4: Check State Existence
+
+The `check_state_exists` method verifies whether the generated state label already exists in the user's state storage. If the state is new, it is added to the storage for future reference.
+</Steps>
+
+By following these steps, the `StateExtractor` builds a comprehensive understanding of the user's context, enabling Namastex Insights to adapt its responses and behaviors accordingly.
+
+## Leveraging User States for Personalized Interactions
+
+With the user states determined by the `StateExtractor`, Namastex Insights can deliver highly personalized interactions tailored to each user's specific needs and preferences. The bot leverages the user's current state to generate thoughtful and engaging responses through the [ChatWithThought](/core-features/intelligent-conversation#chatwith-thought) module.
+
+The user states are persisted across conversations and sessions using the Honcho framework, ensuring a seamless and consistent user experience. As the bot interacts with the user, it continuously updates and refines the user's state storage, allowing for dynamic adaptations based on the evolving conversational context.
+
+<Callout type="success">
+By leveraging user states, Namastex Insights creates a highly personalized and engaging conversational experience, fostering meaningful interactions and building strong user relationships.
+</Callout>
+
+## Continuous Optimization through Few-Shot Learning
+
+Namastex Insights takes context management to the next level by employing few-shot learning techniques to continuously optimize its performance. With each interaction, the bot accumulates valuable examples and feedback, which are used to fine-tune the [ChatWithThought](/core-features/intelligent-conversation#chatwith-thought) module's response generation capabilities.
+
+The [BootstrapFewShot](/core-features/intelligent-conversation#bootstrapfewshot) optimizer plays a crucial role in this process, iteratively refining the chat module's performance based on the collected examples and the `metric` function defined in `response_metric.py`. By assessing the quality and relevance of generated responses, the optimizer identifies areas for improvement and adjusts the module's parameters accordingly.
+
+This continuous optimization process ensures that Namastex Insights adapts and evolves alongside its users, providing an ever-improving conversational experience. As more interactions take place, the bot becomes increasingly adept at understanding user intents, providing pertinent information, and maintaining engaging dialogues.
+
+## Conclusion
+
+Namastex Insights' advanced context management system, powered by the `StateExtractor` class and few-shot learning techniques, sets a new standard for personalized and adaptive conversational experiences within Discord. By unraveling user states, leveraging them for tailored interactions, and continuously optimizing its performance, Namastex Insights delivers an unparalleled level of user engagement and satisfaction.
+
+As you explore the capabilities of Namastex Insights, you'll discover a bot that truly understands and adapts to your needs, creating a seamless and enriching conversational journey. Embrace the power of context management and unlock the full potential of AI-driven interaction within your Discord server.

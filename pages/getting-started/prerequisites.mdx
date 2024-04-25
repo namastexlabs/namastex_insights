@@ -1,0 +1,58 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Prerequisites
+
+Before diving into the world of Namastex Insights, ensure that you have the following prerequisites in place:
+
+## Discord Server
+
+To use Namastex Insights, you'll need a Discord server where you have the necessary permissions to add and manage bots. If you don't have a server yet, follow these steps to create one:
+
+<Steps>
+### Step 1: Create a Discord Account
+
+If you don't have a Discord account, head over to the [Discord website](https://discord.com/) and sign up for a new account.
+
+### Step 2: Create a New Server
+
+Once you're logged in, click on the plus icon on the left sidebar and select "Create a Server." Choose a name and icon for your server, and you're good to go!
+</Steps>
+
+## Python Environment
+
+Namastex Insights is built using Python, so you'll need to have a Python environment set up on your machine. We recommend using Python 3.7 or higher.
+
+<Callout type="info">
+If you're new to Python, check out the [official Python documentation](https://docs.python.org/3/tutorial/index.html) for a comprehensive tutorial on getting started.
+</Callout>
+
+## Required Dependencies
+
+To run Namastex Insights smoothly, you'll need to install the following dependencies:
+
+- `discord.py`: The official Python wrapper for the Discord API.
+- `anthropic`: The Python library for interacting with Anthropic's AI models.
+- `dspy`: A Python library for building and optimizing conversational AI systems.
+- `honcho`: A framework for managing user sessions and metadata.
+
+You can install these dependencies using pip:
+
+```bash
+pip install discord.py anthropic dspy honcho
+```
+
+## API Keys
+
+Namastex Insights integrates with several external APIs to deliver its advanced functionalities. You'll need to obtain API keys for the following services:
+
+- **Anthropic Claude API**: Used for natural language processing and conversation management. Sign up for an API key on the [Anthropic website](https://www.anthropic.com/).
+
+- **StabilityAI API**: Used for image and video generation. Register for an API key on the [StabilityAI website](https://stability.ai/).
+
+- **Honcho API**: Used for user authentication, session management, and storing user metadata. Obtain an API key from the [Honcho platform](https://honcho.dev/).
+
+<Callout type="warning">
+Make sure to keep your API keys secure and never share them publicly. It's recommended to store them as environment variables or in a secure configuration file.
+</Callout>
+
+Once you have these prerequisites in place, you're ready to move on to the [Installation](/getting-started/installation) section and start setting up Namastex Insights on your Discord server.

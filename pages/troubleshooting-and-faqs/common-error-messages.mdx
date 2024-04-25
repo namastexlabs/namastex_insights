@@ -1,0 +1,95 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Common Error Messages
+
+When working with Namastex Insights, you may encounter various error messages. This section provides explanations and resolutions for some of the most frequently encountered error messages.
+
+## "ANTHROPIC_API_KEY not set"
+
+This error message indicates that the Anthropic API key is not properly configured in the environment variables. To resolve this issue, follow these steps:
+
+<Steps>
+### Step 1
+
+Obtain a valid Anthropic API key from the Anthropic Developer Portal.
+
+### Step 2
+
+Set the `ANTHROPIC_API_KEY` environment variable with the obtained API key. You can do this by adding the following line to your `.env` file:
+
+```
+ANTHROPIC_API_KEY=your_api_key_here
+```
+
+### Step 3
+
+Restart your Namastex Insights bot to ensure that the new environment variable is loaded.
+
+</Steps>
+
+<Callout>
+  Make sure to keep your API key secure and avoid sharing it publicly.
+</Callout>
+
+## "Invalid Form Body"
+
+If you encounter the "Invalid Form Body" error message, it typically indicates that the input provided to the bot is not in the expected format. This can happen when:
+
+- The user input exceeds the maximum allowed length.
+- The input contains invalid characters or formatting.
+- The input does not match the expected structure for the specific command or interaction.
+
+To resolve this issue, review the input format and ensure that it adheres to the bot's requirements. Refer to the [Configuration](/getting-started/configuration) section for more information on input formatting and limitations.
+
+## "Maximum retries exceeded, unable to send message"
+
+This error message occurs when the bot has reached the maximum number of retries while attempting to send a message. It can be caused by various factors, such as:
+
+- Network connectivity issues
+- Rate limiting from the Discord API
+- Insufficient permissions for the bot to send messages in the specified channel
+
+To address this issue, consider the following:
+
+- Check your network connection and ensure that the bot has a stable internet connection.
+- Verify that the bot has the necessary permissions to send messages in the desired channel.
+- If the issue persists, try increasing the `max_retries` parameter in the `send_message_with_backoff` function to allow for more retry attempts.
+
+```python
+async def send_message_with_backoff(channel, message, max_retries=5, base_delay=2):
+    # ...
+```
+
+## "Error parsing JSON"
+
+The "Error parsing JSON" error message indicates that the bot encountered an issue while parsing JSON data. This can occur when:
+
+- The JSON data is malformed or contains syntax errors.
+- The expected JSON structure does not match the actual data received.
+
+To resolve this issue:
+
+1. Double-check the JSON data being sent to the bot and ensure that it follows the correct syntax and structure.
+2. Validate the JSON data using a JSON validation tool or by manually inspecting it for any errors.
+3. If the JSON data is generated dynamically, review the code responsible for generating the JSON and fix any issues.
+
+<Callout>
+  Proper JSON formatting is crucial for the bot to process data correctly. Always validate and test your JSON data before sending it to the bot.
+</Callout>
+
+## "Search Query Extraction Skipped"
+
+If you see the "Search Query Extraction Skipped" message, it means that the bot was unable to extract a search query from the user's input. This can happen when:
+
+- The user's input does not contain a valid search query in the expected format.
+- The search query extraction process encountered an error or exception.
+
+To address this issue:
+
+- Provide clear instructions to users on how to format their search queries correctly.
+- Review the search query extraction logic in the `art_maestro.py` file and ensure that it handles various input scenarios gracefully.
+- Consider implementing more robust error handling and fallback mechanisms to handle cases where search query extraction fails.
+
+Remember, providing informative error messages and handling edge cases effectively enhances the user experience and makes troubleshooting easier.
+
+If you encounter any other error messages or need further assistance, don't hesitate to reach out to the [Namastex Insights support team](mailto:support@namastex.com) or consult the [Frequently Asked Questions](/troubleshooting-and-faqs/frequently-asked-questions) section for additional guidance.

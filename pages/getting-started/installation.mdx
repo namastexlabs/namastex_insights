@@ -1,0 +1,70 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Installation
+
+Installing Namastex Insights is a straightforward process that can be completed in just a few steps. This guide will walk you through the installation procedure, ensuring that you have everything set up correctly to start leveraging the power of AI-driven conversation and art generation in your Discord server.
+
+<Steps>
+
+### Step 1: Clone the Repository
+
+To get started, you'll need to clone the Namastex Insights repository from GitHub. Open your terminal and navigate to the directory where you want to store the project. Then, run the following command:
+
+```bash
+git clone https://github.com/your-username/namastex-insights.git
+```
+
+This will create a local copy of the Namastex Insights codebase on your machine.
+
+### Step 2: Install Dependencies
+
+Once you have cloned the repository, navigate into the project directory:
+
+```bash
+cd namastex-insights
+```
+
+Next, install the required dependencies using your preferred package manager. Namastex Insights uses Poetry for dependency management. Run the following command to install the dependencies:
+
+```bash
+poetry install
+```
+
+This command will create a virtual environment and install all the necessary packages specified in the `pyproject.toml` file.
+
+### Step 3: Set Up Environment Variables
+
+Namastex Insights requires certain environment variables to function properly. Create a `.env` file in the project root directory and add the following variables:
+
+```
+ANTHROPIC_API_KEY=your_anthropic_api_key
+STABILITYAI_API_KEY=your_stabilityai_api_key
+HONCHO_API_KEY=your_honcho_api_key
+BOT_TOKEN=your_discord_bot_token
+```
+
+Replace `your_anthropic_api_key`, `your_stabilityai_api_key`, `your_honcho_api_key`, and `your_discord_bot_token` with your actual API keys and bot token. Make sure to keep these credentials secure and never share them publicly.
+
+<Callout type="info">
+  If you haven't created a Discord bot yet, follow the instructions in the [Prerequisites](/getting-started/prerequisites) section to set one up and obtain the necessary token.
+</Callout>
+
+### Step 4: Run the Bot
+
+With the dependencies installed and environment variables set, you're ready to run Namastex Insights. Execute the following command:
+
+```bash
+poetry run python bot.py
+```
+
+This command will start the bot and establish a connection to your Discord server. If everything is set up correctly, you should see a message indicating that the bot has logged in successfully.
+
+</Steps>
+
+Congratulations! You have now successfully installed Namastex Insights. The bot is ready to engage in intelligent conversation, generate art, and provide personalized experiences for your Discord community.
+
+<Callout type="success">
+  If you encounter any issues during the installation process or have further questions, refer to the [Troubleshooting and FAQs](/troubleshooting-and-faqs) section for guidance.
+</Callout>
+
+In the next section, we'll explore how to [configure](/getting-started/configuration) Namastex Insights to tailor its behavior and settings to your specific needs.
