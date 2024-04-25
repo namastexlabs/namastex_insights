@@ -32,9 +32,9 @@ Set up the necessary environment variables, including your Discord bot token and
 
 Finally, run the bot and invite it to your Discord server using the link provided by the Discord application page.
 
-\```bash
+```bash
 node bot.js
-\```
+```
 
 ## Configuration
 
