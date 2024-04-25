@@ -11,9 +11,9 @@ The installation process for Namastex Insights is straightforward and designed t
 
 Start by cloning the Namastex Insights repository from GitHub to get the latest version of the bot.
 
-\```bash
+```bash
 git clone https://github.com/namastexlabs/namastex_insights.git
-\```
+```
 
 ### Step 2: Install Dependencies
 
