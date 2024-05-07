@@ -13,7 +13,7 @@ from tavily import TavilyClient
 import time
 
 # Set up the Anthropic API client
-client = Anthropic(api_key="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")
+client = Anthropic(api_key="")
 
 def calculate_subagent_cost(model, input_tokens, output_tokens):
     # Pricing information per model
@@ -149,7 +149,7 @@ def user_video_generation_prompt(image_file_paths):
 def generate_video(image_file_path, seed, cfg_scale, motion_bucket_id):
     api_host = "https://api.stability.ai"
     endpoint = "/v2beta/image-to-video"
-    api_key = "sk-AuAAM6v7JpfkyDPsiQC5GqJFolxlMdt70lZ9RQAgFoGuQ9vw"
+    api_key = ""
 
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -215,7 +215,7 @@ def haiku_sub_agent(prompt, search_query=None, previous_haiku_tasks=None, use_se
     qna_response = None
     if search_query and use_search:
         # Initialize the Tavily client
-        tavily = TavilyClient(api_key="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")
+        tavily = TavilyClient(api_key="")
         # Perform a QnA search based on the search query
         qna_response = tavily.qna_search(query=search_query)
         console.print(f"QnA response: {qna_response}", style="yellow")
@@ -243,7 +243,7 @@ def haiku_sub_agent(prompt, search_query=None, previous_haiku_tasks=None, use_se
     console.print(f"Haiku Sub-agent Cost: ${total_cost:.2f}")
     
     # Generate images using the StabilityAI API
-    stability_api_key = "sk-AuAAM6v7JpfkyDPsiQC5GqJFolxlMdt70lZ9RQAgFoGuQ9vw"
+    stability_api_key = ""
     generated_images = list(generate_image(prompt, stability_api_key, project_name, image_count, image_size, num_steps, cfg_scale, sampler))
     
     if haiku_response.usage.output_tokens >= 4000:  # Threshold set to 4000 as a precaution
